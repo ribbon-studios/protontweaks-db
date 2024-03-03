@@ -1,0 +1,10 @@
+{
+  "name": "SUGURI 2",
+  "tweaks": {
+    "dlls": [
+      "d3dxof"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

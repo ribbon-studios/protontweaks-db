@@ -1,0 +1,10 @@
+{
+  "name": "The Elder Scrolls V: Skyrim Special Edition",
+  "tweaks": {
+    "dlls": [
+      "faudio"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

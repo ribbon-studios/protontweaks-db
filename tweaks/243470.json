@@ -1,12 +1,12 @@
 {
-  "name": "Elite Dangerous",
+  "name": "Watch_Dogs",
   "tweaks": {
     "dlls": [
-      "dotnet40"
+      "xact"
     ],
     "fonts": [],
     "settings": [
-      "win7"
+      "winxp"
     ]
   }
 }

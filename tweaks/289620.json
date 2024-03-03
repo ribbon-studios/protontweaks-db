@@ -1,0 +1,10 @@
+{
+  "name": "Collapse",
+  "tweaks": {
+    "dlls": [
+      "wmp9"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

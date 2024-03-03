@@ -1,0 +1,11 @@
+{
+  "name": "BIT.TRIP RUNNER",
+  "tweaks": {
+    "dlls": [
+      "d3dcompiler_43",
+      "d3dx9_43"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

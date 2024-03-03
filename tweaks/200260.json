@@ -1,0 +1,17 @@
+{
+  "name": "Batman Arkham City",
+  "tweaks": {
+    "dlls": [
+      "dotnet20",
+      "dotnet35",
+      "physx",
+      "mdx",
+      "d3dcompiler_43",
+      "d3dx9_43"
+    ],
+    "fonts": [],
+    "settings": [
+      "win10"
+    ]
+  }
+}

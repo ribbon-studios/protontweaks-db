@@ -1,0 +1,13 @@
+{
+  "name": "Chronophantasma Extend",
+  "tweaks": {
+    "dlls": [
+      "devenum",
+      "quartz",
+      "wmp9",
+      "xact"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

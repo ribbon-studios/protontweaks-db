@@ -1,0 +1,10 @@
+{
+  "name": "Mafia II: Definitive Edition \"\"",
+  "tweaks": {
+    "dlls": [
+      "dotnet452"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

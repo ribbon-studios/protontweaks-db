@@ -1,12 +1,10 @@
 {
-  "name": "Elite Dangerous",
+  "name": "DMC Devil May Cry",
   "tweaks": {
     "dlls": [
       "dotnet40"
     ],
     "fonts": [],
-    "settings": [
-      "win7"
-    ]
+    "settings": []
   }
 }

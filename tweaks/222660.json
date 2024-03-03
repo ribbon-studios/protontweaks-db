@@ -1,0 +1,10 @@
+{
+  "name": "Retro/Grade",
+  "tweaks": {
+    "dlls": [
+      "windowscodecs"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

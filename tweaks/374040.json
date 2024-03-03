@@ -1,0 +1,10 @@
+{
+  "name": "Portal Knights",
+  "tweaks": {
+    "dlls": [
+      "xact"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

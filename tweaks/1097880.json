@@ -1,0 +1,11 @@
+{
+  "name": "Super Naughty Maid 2",
+  "tweaks": {
+    "dlls": [
+      "quartz",
+      "wmp9"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

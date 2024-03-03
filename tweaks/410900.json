@@ -1,0 +1,10 @@
+{
+  "name": "Forts",
+  "tweaks": {
+    "dlls": [
+      "ole32"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

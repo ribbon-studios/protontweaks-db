@@ -1,0 +1,10 @@
+{
+  "name": "Stealth Inc 2: A Game of Clones",
+  "tweaks": {
+    "dlls": [
+      "dsound"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "RiME",
+  "tweaks": {
+    "dlls": [
+      "xact",
+      "dinput8"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Sacred 2 Gold",
+  "tweaks": {
+    "dlls": [
+      "physx"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

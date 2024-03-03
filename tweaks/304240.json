@@ -1,0 +1,10 @@
+{
+  "name": "Resident Evil / biohazard HD REMASTER",
+  "tweaks": {
+    "dlls": [
+      "wmp11"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

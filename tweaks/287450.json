@@ -1,0 +1,13 @@
+{
+  "name": "Rise of Nations: Extended Edition",
+  "tweaks": {
+    "dlls": [
+      "crypt32",
+      "directmusic"
+    ],
+    "fonts": [],
+    "settings": [
+      "sound=alsa"
+    ]
+  }
+}

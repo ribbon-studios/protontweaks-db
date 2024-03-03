@@ -1,0 +1,15 @@
+{
+  "name": "Dark Sould Prepare To Die Edition",
+  "tweaks": {
+    "dlls": [
+      "wmp9",
+      "devenum",
+      "quartz",
+      "dinput8"
+    ],
+    "fonts": [],
+    "settings": [
+      "win7"
+    ]
+  }
+}

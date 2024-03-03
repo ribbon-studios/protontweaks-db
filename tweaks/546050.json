@@ -1,0 +1,10 @@
+{
+  "name": "Puyo Puyo Tetris",
+  "tweaks": {
+    "dlls": [
+      "xact"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

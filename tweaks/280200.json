@@ -1,0 +1,10 @@
+{
+  "name": "Eterium",
+  "tweaks": {
+    "dlls": [
+      "xna40"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

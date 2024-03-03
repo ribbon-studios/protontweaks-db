@@ -1,0 +1,20 @@
+{
+  "name": "Chantelise - A Tale of Two Sisters",
+  "tweaks": {
+    "dlls": [
+      "dmime",
+      "dmloader",
+      "dmsynth",
+      "dmusic",
+      "dsound",
+      "dswave"
+    ],
+    "fonts": [],
+    "settings": [
+      "sound=alsa"
+    ],
+    "env": {
+      "PULSE_LATENCY_MSEC": "60"
+    }
+  }
+}

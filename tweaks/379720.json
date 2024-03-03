@@ -1,0 +1,10 @@
+{
+  "name": "Doom 2016",
+  "tweaks": {
+    "dlls": [
+      "vcrun2015"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

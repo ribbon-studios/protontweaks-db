@@ -1,0 +1,10 @@
+{
+  "name": "Shenmue I & II",
+  "tweaks": {
+    "dlls": [
+      "dotnet46"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

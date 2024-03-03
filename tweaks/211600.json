@@ -1,0 +1,10 @@
+{
+  "name": "Thief Gold",
+  "tweaks": {
+    "dlls": [
+      "vcrun2008"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

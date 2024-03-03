@@ -1,12 +1,11 @@
 {
-  "name": "Elite Dangerous",
+  "name": "Styx: Master of Shadows",
   "tweaks": {
     "dlls": [
+      "xact",
       "dotnet40"
     ],
     "fonts": [],
-    "settings": [
-      "win7"
-    ]
+    "settings": []
   }
 }

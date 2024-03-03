@@ -1,0 +1,10 @@
+{
+  "name": "Dark Souls Remastered",
+  "tweaks": {
+    "dlls": [
+      "vcrun2017"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

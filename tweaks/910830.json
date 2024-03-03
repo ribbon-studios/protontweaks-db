@@ -1,0 +1,10 @@
+{
+  "name": "Rebel Galaxy Outlaw",
+  "tweaks": {
+    "dlls": [
+      "mfc42"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

@@ -1,8 +1,8 @@
 {
-  "name": "Elite Dangerous",
+  "name": "State of Decay 2",
   "tweaks": {
     "dlls": [
-      "dotnet40"
+      "d3dcompiler_47"
     ],
     "fonts": [],
     "settings": [

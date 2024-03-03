@@ -1,0 +1,10 @@
+{
+  "name": "Resident Evil Revelations 2 / Biohazard Revelations 2",
+  "tweaks": {
+    "dlls": [
+      "wmp11"
+    ],
+    "fonts": [],
+    "settings": []
+  }
+}

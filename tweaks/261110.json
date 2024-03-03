@@ -1,0 +1,15 @@
+{
+  "name": "Killer is Dead at Launch",
+  "tweaks": {
+    "dlls": [
+      "dotnet45",
+      "directx9",
+      "vcrun2010",
+      "xact"
+    ],
+    "fonts": [],
+    "settings": [
+      "winxp"
+    ]
+  }
+}
