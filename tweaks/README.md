@@ -1,4 +1,4 @@
-### Tricks
+### Tweaks
 
 | Name | App ID |
 | :--: | :----: |
