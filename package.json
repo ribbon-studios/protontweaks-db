@@ -1,0 +1,19 @@
+{
+  "name": "protontweaks-db",
+  "module": "index.ts",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "ci": "bun install --frozen-lockfile",
+    "start": "bun ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  }
+}

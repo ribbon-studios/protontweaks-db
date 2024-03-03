@@ -1,0 +1,7 @@
+{
+  "name": "Game / App Name",
+  "tweaks": {
+    "ddls": ["gdiplus"],
+    "fonts": ["andale"]
+  }
+}
