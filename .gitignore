@@ -2,3 +2,4 @@ node_modules/
 tweaks/schema.json
 tweaks/tweaks.json
 tweaks/README.md
+*.py

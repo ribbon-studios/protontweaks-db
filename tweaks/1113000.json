@@ -1,0 +1,11 @@
+{
+  "name": "Persona 4 Golden",
+  "tweaks": {
+    "dlls": ["devenum", "quartz", "wmp9", "lavfilters"],
+    "fonts": [],
+    "settings": [],
+    "env": {
+      "PULSE_LATENCY_MSEC": "60"
+    }
+  }
+}

@@ -32,6 +32,10 @@
             "enum": [""]
           },
           "uniqueItems": true
+        },
+        "env": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
         }
       },
       "required": ["dlls", "fonts", "settings"]
