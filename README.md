@@ -20,7 +20,9 @@
 {
   "name": "They Are Billions",
   "tweaks": {
-    "dlls": ["gdiplus"]
+    "dlls": ["gdiplus"],
+    "fonts": [],
+    "settings": []
   }
 }
 ```
