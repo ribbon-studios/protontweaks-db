@@ -1,0 +1,41 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "The name of the app",
+      "type": "string"
+    },
+    "tweaks": {
+      "type": "object",
+      "properties": {
+        "dlls": {
+          "type": "array",
+          "description": "The dlls to install",
+          "items": {
+            "type": "string",
+            "enum": [""]
+          },
+          "uniqueItems": true
+        },
+        "fonts": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [""]
+          },
+          "uniqueItems": true
+        },
+        "settings": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [""]
+          },
+          "uniqueItems": true
+        }
+      },
+      "required": ["dlls", "fonts", "settings"]
+    }
+  },
+  "required": ["name", "tweaks"]
+}

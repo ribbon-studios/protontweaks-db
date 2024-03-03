@@ -1,0 +1,8 @@
+{
+  "name": "Elite Dangerous",
+  "tweaks": {
+    "dlls": ["dotnet40"],
+    "fonts": [],
+    "settings": ["win7"]
+  }
+}

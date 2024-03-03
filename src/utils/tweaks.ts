@@ -3,7 +3,7 @@ import { readdir, writeFile, readFile } from 'fs/promises';
 import { join } from 'path';
 import type { Tweak } from '../types';
 
-export const TEMPLATES_DIR = join(import.meta.dirname, '../templates');
+export const TEMPLATES_DIR = join(import.meta.dirname, './templates');
 export const TWEAKS_DIR = join(import.meta.dirname, '../../tweaks');
 
 export type SimpleTweak = Pick<Tweak, 'name'> & {
@@ -20,7 +20,9 @@ export async function getTemplate(file: string) {
 
 export async function getTweaks(): Promise<SimpleTweak[]> {
   const files = await readdir(TWEAKS_DIR, 'utf-8');
-  const tweakFiles = files.filter((file) => file.endsWith('.json') && !file.startsWith('.') && file !== 'tweaks.json');
+  const tweakFiles = files.filter(
+    (file) => file.endsWith('.json') && !file.startsWith('.') && !['tweaks.json', 'schema.json'].includes(file)
+  );
 
   return await Promise.all(
     tweakFiles.map(async (file) => {
@@ -54,5 +56,9 @@ export async function generateTweaksFile(tweaks: SimpleTweak[]) {
 export async function generateReadme(tweaks: SimpleTweak[]) {
   const template = await getTemplate('README.md.hbs');
 
-  await writeFile(join(TWEAKS_DIR, 'README.md'), template({ tweaks }), 'utf-8');
+  await writeFile(
+    join(TWEAKS_DIR, 'README.md'),
+    template({ tweaks: tweaks.sort((a, b) => a.name.localeCompare(b.name)) }),
+    'utf-8'
+  );
 }

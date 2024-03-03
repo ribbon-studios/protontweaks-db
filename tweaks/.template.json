@@ -1,7 +1,8 @@
 {
   "name": "Game / App Name",
   "tweaks": {
-    "ddls": ["gdiplus"],
-    "fonts": ["andale"]
+    "dlls": ["gdiplus"],
+    "fonts": ["andale"],
+    "settings": ["win7"]
   }
 }
