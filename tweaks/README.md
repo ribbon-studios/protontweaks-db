@@ -9,6 +9,7 @@
 - [Elite Dangerous (359320)](./359320.json)
 - [EVE Online (8500)](./8500.json)
 - [Oddworld: Munch&#x27;s Oddysee (15740)](./15740.json)
+- [Persona 4 Golden (1113000)](./1113000.json)
 - [realMyst (63600)](./63600.json)
 - [Recettear: An Item Shop&#x27;s Tale (70400)](./70400.json)
 - [Red Orchestra 2: Heroes of Stalingrad with Rising Storm (35450)](./35450.json)
