@@ -1,10 +1,12 @@
 {
+  "id": "343090",
   "name": "SimpleRockets",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "dotnet40"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

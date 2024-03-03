@@ -1,12 +1,13 @@
 {
+  "id": "243470",
   "name": "Watch_Dogs",
   "tweaks": {
-    "dlls": [
-      "xact"
-    ],
-    "fonts": [],
-    "settings": [
+    "tricks": [
+      "xact",
       "winxp"
-    ]
-  }
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

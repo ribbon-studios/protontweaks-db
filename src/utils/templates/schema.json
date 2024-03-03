@@ -8,25 +8,9 @@
     "tweaks": {
       "type": "object",
       "properties": {
-        "dlls": {
+        "tricks": {
           "type": "array",
           "description": "The dlls to install",
-          "items": {
-            "type": "string",
-            "enum": [""]
-          },
-          "uniqueItems": true
-        },
-        "fonts": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "enum": [""]
-          },
-          "uniqueItems": true
-        },
-        "settings": {
-          "type": "array",
           "items": {
             "type": "string",
             "enum": [""]
@@ -38,8 +22,25 @@
           "additionalProperties": { "type": "string" }
         }
       },
-      "required": ["dlls", "fonts", "settings"]
+      "required": ["tricks", "env"]
+    },
+    "issues": {
+      "type": "array",
+      "description": "The issues the game has and whether there is a solution",
+      "items": {
+        "type": "object",
+        "properties": {
+          "solution": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          }
+        },
+        "required": ["description"]
+      },
+      "uniqueItems": true
     }
   },
-  "required": ["name", "tweaks"]
+  "required": ["name", "tweaks", "issues"]
 }

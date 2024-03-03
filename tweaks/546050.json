@@ -1,10 +1,12 @@
 {
+  "id": "546050",
   "name": "Puyo Puyo Tetris",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "xact"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

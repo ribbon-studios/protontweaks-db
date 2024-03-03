@@ -1,9 +1,12 @@
 export type Tweak = {
+  id: string;
   name: string;
   tweaks: {
-    dlls: string[];
-    fonts: string[];
-    settings: string[];
+    tricks: string[];
     env?: Record<string, string>;
   };
+  issues: {
+    solution: string | null;
+    description: string;
+  }[];
 };

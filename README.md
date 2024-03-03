@@ -16,13 +16,24 @@
 
 ### Example Tweak File
 
-```jsonc
+```ts
 {
   "name": "They Are Billions",
   "tweaks": {
-    "dlls": ["gdiplus"],
-    "fonts": [],
-    "settings": []
+    // Specify any protontricks here
+    "tricks": ["gdiplus"],
+    // Set any environment variables here
+    "env": {},
+    "settings": {
+      // Informs the client that ESync should be disabled
+      "esync": false,
+      // Informs the client that FSync should be disabled
+      "fsync": false
+    }
   }
 }
 ```
+
+### TODO
+
+- Add support for gpu vendor specific configs

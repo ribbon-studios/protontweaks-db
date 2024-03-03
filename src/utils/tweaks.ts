@@ -18,14 +18,18 @@ export async function getTemplate(file: string) {
   });
 }
 
-export async function getTweaks(): Promise<SimpleTweak[]> {
+export async function getTweaksFiles(): Promise<string[]> {
   const files = await readdir(TWEAKS_DIR, 'utf-8');
-  const tweakFiles = files.filter(
+  return files.filter(
     (file) => file.endsWith('.json') && !file.startsWith('.') && !['tweaks.json', 'schema.json'].includes(file)
   );
+}
+
+export async function getTweaks(): Promise<SimpleTweak[]> {
+  const files = await getTweaksFiles();
 
   return await Promise.all(
-    tweakFiles.map(async (file) => {
+    files.map(async (file) => {
       const contents = await readFile(join(TWEAKS_DIR, file), 'utf-8');
       const tweak: Omit<SimpleTweak, 'id'> = JSON.parse(contents);
 

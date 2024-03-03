@@ -1,10 +1,12 @@
 {
+  "id": "339340",
   "name": "Resident Evil 0 / biohazard 0 HD REMASTER",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "wmp11"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

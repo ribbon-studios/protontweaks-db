@@ -1,15 +1,16 @@
 {
+  "id": "211420",
   "name": "Dark Sould Prepare To Die Edition",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "wmp9",
       "devenum",
       "quartz",
-      "dinput8"
-    ],
-    "fonts": [],
-    "settings": [
+      "dinput8",
       "win7"
-    ]
-  }
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

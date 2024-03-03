@@ -1,8 +1,12 @@
 {
+  "id": "427510",
   "name": "Way of the Samurai 3",
   "tweaks": {
-    "dlls": ["lavfilters"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "lavfilters"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

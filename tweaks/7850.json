@@ -1,8 +1,12 @@
 {
+  "id": "7850",
   "name": "Cryostasis",
   "tweaks": {
-    "dlls": ["physx"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "physx"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

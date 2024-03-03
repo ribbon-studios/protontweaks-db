@@ -1,8 +1,17 @@
 {
+  "id": "644930",
   "name": "They Are Billions",
   "tweaks": {
-    "dlls": ["gdiplus"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "gdiplus"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": [
+    {
+      "description": "Text is cut off.",
+      "solution": "gdiplus"
+    }
+  ]
 }

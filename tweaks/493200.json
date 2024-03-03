@@ -1,11 +1,13 @@
 {
+  "id": "493200",
   "name": "RiME",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "xact",
       "dinput8"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

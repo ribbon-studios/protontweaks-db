@@ -1,8 +1,14 @@
 {
+  "id": "15740",
   "name": "Oddworld: Munch's Oddysee",
   "tweaks": {
-    "dlls": ["devenum", "quartz", "wmp9"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "devenum",
+      "quartz",
+      "wmp9"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

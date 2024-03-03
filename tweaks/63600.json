@@ -1,8 +1,12 @@
 {
+  "id": "63600",
   "name": "realMyst",
   "tweaks": {
-    "dlls": ["icodecs"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "icodecs"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

@@ -1,7 +1,8 @@
 {
+  "id": "201480",
   "name": "Serious Sam: The Random Encounter",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "dmband",
       "dmime",
       "dmloader",
@@ -12,7 +13,8 @@
       "dswave",
       "directplay"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

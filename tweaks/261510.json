@@ -1,10 +1,12 @@
 {
+  "id": "261510",
   "name": "Tesla Effect",
   "tweaks": {
-    "dlls": [],
-    "fonts": [
+    "tricks": [
       "corefonts"
     ],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

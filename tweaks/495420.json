@@ -1,12 +1,13 @@
 {
+  "id": "495420",
   "name": "State of Decay 2",
   "tweaks": {
-    "dlls": [
-      "d3dcompiler_47"
-    ],
-    "fonts": [],
-    "settings": [
+    "tricks": [
+      "d3dcompiler_47",
       "win7"
-    ]
-  }
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

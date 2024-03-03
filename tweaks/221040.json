@@ -1,10 +1,12 @@
 {
+  "id": "221040",
   "name": "Resident Evil 6 / Biohazard 6",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "wmp11"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

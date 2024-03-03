@@ -1,8 +1,18 @@
 {
+  "id": "70400",
   "name": "Recettear: An Item Shop's Tale",
   "tweaks": {
-    "dlls": ["dmime", "dmloader", "dmsynth", "dmusic", "dsound", "dswave"],
-    "fonts": [],
-    "settings": ["sound=alsa"]
-  }
+    "tricks": [
+      "dmime",
+      "dmloader",
+      "dmsynth",
+      "dmusic",
+      "dsound",
+      "dswave",
+      "sound=alsa"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

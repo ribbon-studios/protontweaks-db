@@ -1,11 +1,13 @@
 {
+  "id": "63710",
   "name": "BIT.TRIP RUNNER",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "d3dcompiler_43",
       "d3dx9_43"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

@@ -1,10 +1,12 @@
 {
+  "id": "280200",
   "name": "Eterium",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "xna40"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

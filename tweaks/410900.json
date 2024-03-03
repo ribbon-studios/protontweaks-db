@@ -1,10 +1,12 @@
 {
+  "id": "410900",
   "name": "Forts",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "ole32"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

@@ -1,10 +1,12 @@
 {
+  "id": "390710",
   "name": "SUGURI 2",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "d3dxof"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

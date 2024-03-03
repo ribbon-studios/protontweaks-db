@@ -1,8 +1,12 @@
 {
+  "id": "46320",
   "name": "Space Rangers",
   "tweaks": {
-    "dlls": ["vb6run"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "vb6run"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

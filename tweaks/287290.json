@@ -1,10 +1,12 @@
 {
+  "id": "287290",
   "name": "Resident Evil Revelations 2 / Biohazard Revelations 2",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "wmp11"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

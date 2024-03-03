@@ -1,8 +1,12 @@
 {
+  "id": "17300",
   "name": "Crysis",
   "tweaks": {
-    "dlls": ["d3dcompiler_43"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "d3dcompiler_43"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

@@ -1,8 +1,12 @@
 {
+  "id": "480",
   "name": "Space War",
   "tweaks": {
-    "dlls": ["d3dx9"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "d3dx9"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

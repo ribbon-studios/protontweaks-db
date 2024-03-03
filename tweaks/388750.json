@@ -1,13 +1,15 @@
 {
+  "id": "388750",
   "name": "Chronophantasma Extend",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "devenum",
       "quartz",
       "wmp9",
       "xact"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

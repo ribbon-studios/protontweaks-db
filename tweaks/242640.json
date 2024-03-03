@@ -1,11 +1,13 @@
 {
+  "id": "242640",
   "name": "Styx: Master of Shadows",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "xact",
       "dotnet40"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

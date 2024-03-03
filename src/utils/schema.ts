@@ -9,16 +9,12 @@ const ajv = new Ajv({
   allErrors: true,
 });
 
-const URL = 'https://tweaks.rains.cafe/schema.json';
-
 export async function getSchema() {
   const output = {
     ...schema,
   };
 
-  output.properties.tweaks.properties.dlls.items.enum = DLLS;
-  output.properties.tweaks.properties.fonts.items.enum = FONTS;
-  output.properties.tweaks.properties.settings.items.enum = SETTINGS;
+  output.properties.tweaks.properties.tricks.items.enum = [...DLLS, ...FONTS, ...SETTINGS];
 
   return output;
 }

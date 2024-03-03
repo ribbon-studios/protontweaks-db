@@ -1,10 +1,12 @@
 {
+  "id": "211600",
   "name": "Thief Gold",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "vcrun2008"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

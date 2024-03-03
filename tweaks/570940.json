@@ -1,10 +1,12 @@
 {
+  "id": "570940",
   "name": "Dark Souls Remastered",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "vcrun2017"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

@@ -1,12 +1,13 @@
 {
+  "id": "359320",
   "name": "Elite Dangerous",
   "tweaks": {
-    "dlls": [
-      "dotnet40"
-    ],
-    "fonts": [],
-    "settings": [
+    "tricks": [
+      "dotnet40",
       "win7"
-    ]
-  }
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

@@ -1,10 +1,12 @@
 {
+  "id": "222660",
   "name": "Retro/Grade",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "windowscodecs"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

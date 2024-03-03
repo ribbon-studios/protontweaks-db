@@ -1,10 +1,12 @@
 {
+  "id": "910830",
   "name": "Rebel Galaxy Outlaw",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "mfc42"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

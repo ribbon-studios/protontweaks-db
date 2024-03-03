@@ -1,10 +1,12 @@
 {
+  "id": "222480",
   "name": "Resident Evil Revelations / Biohazard Revelations",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "wmp11"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

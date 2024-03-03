@@ -1,11 +1,13 @@
 {
+  "id": "1097880",
   "name": "Super Naughty Maid 2",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "quartz",
       "wmp9"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

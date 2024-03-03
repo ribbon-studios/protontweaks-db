@@ -1,10 +1,12 @@
 {
+  "id": "111600",
   "name": "Serious Sam Double D XXL",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "dotnet40"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

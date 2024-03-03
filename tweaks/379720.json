@@ -1,10 +1,12 @@
 {
+  "id": "379720",
   "name": "Doom 2016",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "vcrun2015"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

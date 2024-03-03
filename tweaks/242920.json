@@ -1,10 +1,12 @@
 {
+  "id": "242920",
   "name": "Banished",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "xact"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

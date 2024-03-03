@@ -1,10 +1,12 @@
 {
+  "id": "211740",
   "name": "Thief 2",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "vcrun2008"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

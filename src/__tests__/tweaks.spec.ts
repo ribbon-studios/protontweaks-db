@@ -3,6 +3,7 @@ import { join } from 'path';
 import { readFile } from 'fs/promises';
 import { TWEAKS_DIR, getTweaks } from '../utils/tweaks';
 import { getTweakValidator } from '../utils/schema';
+import type { Tweak } from '../types';
 
 describe('tweaks', async () => {
   const [tweaks, isTweak] = await Promise.all([getTweaks(), getTweakValidator()]);
@@ -14,8 +15,9 @@ describe('tweaks', async () => {
 
   it.each(tests)('validating %s @ %s', async (name, id) => {
     const contents = await readFile(join(TWEAKS_DIR, `${id}.json`), 'utf-8');
+    const tweak: Tweak = JSON.parse(contents);
 
-    const valid = isTweak(JSON.parse(contents));
+    const valid = isTweak(tweak);
 
     if (isTweak.errors) {
       for (const error of isTweak.errors) {
@@ -24,5 +26,6 @@ describe('tweaks', async () => {
     }
 
     expect(valid).toEqual(true);
+    expect(tweak.id).toEqual(id);
   });
 });

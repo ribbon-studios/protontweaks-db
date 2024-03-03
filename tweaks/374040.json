@@ -1,10 +1,12 @@
 {
+  "id": "374040",
   "name": "Portal Knights",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "xact"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

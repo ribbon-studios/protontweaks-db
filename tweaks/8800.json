@@ -1,8 +1,13 @@
 {
+  "id": "8800",
   "name": "Civilization 4 (Beyond the Sword)",
   "tweaks": {
-    "dlls": ["msxml3", "msxml4"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "msxml3",
+      "msxml4"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

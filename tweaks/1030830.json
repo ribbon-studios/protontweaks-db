@@ -1,10 +1,12 @@
 {
+  "id": "1030830",
   "name": "Mafia II: Definitive Edition \"\"",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "dotnet452"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

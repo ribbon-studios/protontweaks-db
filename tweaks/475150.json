@@ -1,10 +1,12 @@
 {
+  "id": "475150",
   "name": "Titan Quest Anniversary Edition(475150)",
   "tweaks": {
-    "dlls": [],
-    "fonts": [],
-    "settings": [
+    "tricks": [
       "winxp"
-    ]
-  }
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

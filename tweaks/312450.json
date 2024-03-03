@@ -1,10 +1,12 @@
 {
+  "id": "312450",
   "name": "Order of Battle: World War II",
   "tweaks": {
-    "dlls": [],
-    "fonts": [
+    "tricks": [
       "corefonts"
     ],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

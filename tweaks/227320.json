@@ -1,10 +1,12 @@
 {
+  "id": "227320",
   "name": "You Need a Budget 4",
   "tweaks": {
-    "dlls": [],
-    "fonts": [
+    "tricks": [
       "corefonts"
     ],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

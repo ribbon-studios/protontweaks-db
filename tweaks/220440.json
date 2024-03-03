@@ -1,10 +1,12 @@
 {
+  "id": "220440",
   "name": "DMC Devil May Cry",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "dotnet40"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

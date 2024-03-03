@@ -1,8 +1,12 @@
 {
+  "id": "8500",
   "name": "EVE Online",
   "tweaks": {
-    "dlls": [],
-    "fonts": [],
-    "settings": ["winxp"]
-  }
+    "tricks": [
+      "winxp"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

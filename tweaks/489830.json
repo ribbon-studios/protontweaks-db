@@ -1,10 +1,12 @@
 {
+  "id": "489830",
   "name": "The Elder Scrolls V: Skyrim Special Edition",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "faudio"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

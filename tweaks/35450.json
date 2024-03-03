@@ -1,8 +1,12 @@
 {
+  "id": "35450",
   "name": "Red Orchestra 2: Heroes of Stalingrad with Rising Storm",
   "tweaks": {
-    "dlls": ["xact"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "xact"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

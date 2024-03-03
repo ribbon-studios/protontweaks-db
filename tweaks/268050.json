@@ -1,15 +1,15 @@
 {
+  "id": "268050",
   "name": "The Evil Within(268050)",
   "tweaks": {
-    "dlls": [
-      "xact"
-    ],
-    "fonts": [],
-    "settings": [
+    "tricks": [
+      "xact",
       "win7"
     ],
     "env": {
       "PULSE_LATENCY_MSEC": "60"
-    }
-  }
+    },
+    "settings": {}
+  },
+  "issues": []
 }

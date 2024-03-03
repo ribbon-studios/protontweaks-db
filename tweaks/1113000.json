@@ -1,11 +1,17 @@
 {
+  "id": "1113000",
   "name": "Persona 4 Golden",
   "tweaks": {
-    "dlls": ["devenum", "quartz", "wmp9", "lavfilters"],
-    "fonts": [],
-    "settings": [],
+    "tricks": [
+      "devenum",
+      "quartz",
+      "wmp9",
+      "lavfilters"
+    ],
     "env": {
       "PULSE_LATENCY_MSEC": "60"
-    }
-  }
+    },
+    "settings": {}
+  },
+  "issues": []
 }

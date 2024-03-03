@@ -1,8 +1,12 @@
 {
+  "id": "21690",
   "name": "Resident Evil 5",
   "tweaks": {
-    "dlls": ["wmp11"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "wmp11"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

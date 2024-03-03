@@ -1,8 +1,12 @@
 {
+  "id": "46330",
   "name": "Space Rangers 2: Reboot",
   "tweaks": {
-    "dlls": ["vb6run"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "vb6run"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

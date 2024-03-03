@@ -1,10 +1,12 @@
 {
+  "id": "758330",
   "name": "Shenmue I & II",
   "tweaks": {
-    "dlls": [
+    "tricks": [
       "dotnet46"
     ],
-    "fonts": [],
-    "settings": []
-  }
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }

@@ -1,8 +1,12 @@
 {
+  "id": "49520",
   "name": "Borderlands 2",
   "tweaks": {
-    "dlls": ["physx"],
-    "fonts": [],
-    "settings": []
-  }
+    "tricks": [
+      "physx"
+    ],
+    "env": {},
+    "settings": {}
+  },
+  "issues": []
 }
