@@ -35,7 +35,7 @@ jobs:
       - name: Generate Readme and tweaks.json
         run: bun start
 
-      - run: git add -f tweaks/tweaks.json tweaks/README.md
+      - run: git add -f tweaks/README.md
       - run: git config user.email 'bot@rains.cafe'
       - run: git config user.name 'Cozy Bot'
       - run: "git commit -m 'chore: updated generated files'"

@@ -3,7 +3,7 @@ import { readdir, writeFile, readFile } from 'fs/promises';
 import { join } from 'path';
 import type { Tweak } from '../types';
 
-export const TEMPLATES_DIR = join(import.meta.dirname, '../../templates');
+export const TEMPLATES_DIR = join(import.meta.dirname, '../templates');
 export const TWEAKS_DIR = join(import.meta.dirname, '../../tweaks');
 
 export type SimpleTweak = Pick<Tweak, 'name'> & {
