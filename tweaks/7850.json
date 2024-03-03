@@ -1,0 +1,8 @@
+{
+  "name": "Cryostasis",
+  "tweaks": {
+    "dlls": ["physx"],
+    "fonts": [],
+    "settings": []
+  }
+}

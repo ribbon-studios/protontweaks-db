@@ -1,0 +1,8 @@
+{
+  "name": "Resident Evil 5",
+  "tweaks": {
+    "dlls": ["wmp11"],
+    "fonts": [],
+    "settings": []
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Space Rangers 2: Reboot",
+  "tweaks": {
+    "dlls": ["vb6run"],
+    "fonts": [],
+    "settings": []
+  }
+}

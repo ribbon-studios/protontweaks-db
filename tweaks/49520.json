@@ -1,0 +1,8 @@
+{
+  "name": "Borderlands 2",
+  "tweaks": {
+    "dlls": ["physx"],
+    "fonts": [],
+    "settings": []
+  }
+}

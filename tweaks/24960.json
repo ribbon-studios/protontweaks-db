@@ -1,0 +1,8 @@
+{
+  "name": "Battlefield: Bad Company 2",
+  "tweaks": {
+    "dlls": ["directx9"],
+    "fonts": ["corefonts"],
+    "settings": ["win7"]
+  }
+}
