@@ -35,11 +35,12 @@ jobs:
       - name: Generate Readme and tweaks.json
         run: bun start
 
-      - run: git add -f tweaks/README.md
-      - run: git config user.email 'bot@rains.cafe'
-      - run: git config user.name 'Cozy Bot'
-      - run: "git commit -m 'chore: updated generated files'"
-      - run: git push
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'chore: update generated files'
+          file_pattern: 'tweaks/README.md'
+          commit_user_name: Cozy Bot
+          commit_user_email: bot@rains.cafe
 
       - name: Remove Dotfiles from Tweaks
         run: rm -f 'tweaks/.*' 'tweaks/README.md'
