@@ -38,11 +38,11 @@ jobs:
       - run: git add -f tweaks/README.md
       - run: git config user.email 'bot@rains.cafe'
       - run: git config user.name 'Cozy Bot'
-      - run: "git commit -am 'chore: updated tweaks.json'"
+      - run: "git commit -m 'chore: updated tweaks.json'"
       - run: git push
 
       - name: Remove Dotfiles from Tweaks
-        run: rm -f tweaks/.* tweaks/README.md
+        run: rm -f 'tweaks/.*' 'tweaks/README.md'
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
