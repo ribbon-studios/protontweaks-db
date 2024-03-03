@@ -1,7 +1,7 @@
 ## Protontweaks DB
 
 > [!IMPORTANT]  
-> This is the Protontweaks DB repository, you can find the [`protontweaks` cli over here](https://github.com/rain-cafe/protontweaks)
+> This is the Protontweaks DB repository, you can find the `protontweaks` cli [over here](https://github.com/rain-cafe/protontweaks)
 
 ### Adding a tweak?
 

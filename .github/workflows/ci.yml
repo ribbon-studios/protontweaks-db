@@ -9,7 +9,7 @@ on:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -30,11 +30,15 @@ jobs:
         with:
           bun-version: latest
 
+      - run: bun ci
+
       - name: Generate Readme and tweaks.json
         run: bun start
 
       - run: git add -f tweaks/README.md
-      - run: 'git commit -am "chore: updated tweaks"'
+      - run: git config user.email 'bot@rains.cafe'
+      - run: git config user.name 'Cozy Bot'
+      - run: "git commit -am 'chore: updated tweaks.json'"
       - run: git push
 
       - name: Remove Dotfiles from Tweaks
@@ -49,6 +53,7 @@ jobs:
           path: './tweaks'
 
   deploy:
+    needs: build
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
