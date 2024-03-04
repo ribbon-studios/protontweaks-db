@@ -1,0 +1,15 @@
+{
+  "id": "1604030",
+  "name": "V Rising",
+  "tweaks": {
+    "tricks": ["winhttp"],
+    "env": {},
+    "settings": {}
+  },
+  "issues": [
+    {
+      "solution": "winhttp",
+      "description": "BepInEx mods do not function."
+    }
+  ]
+}

@@ -11,7 +11,9 @@ describe('tweaks', async () => {
     (output, tweak) => (tweak.name.length > output ? tweak.name.length + 2 : output),
     0
   );
-  const tests = tweaks.map((tweak) => [`"${tweak.name}"`.padEnd(longestName, ' '), tweak.id]);
+  const tests = tweaks
+    .sort((a, b) => a.name.localeCompare(b.name))
+    .map((tweak) => [`"${tweak.name}"`.padEnd(longestName, ' '), tweak.id]);
 
   it.each(tests)('validating %s @ %s', async (name, id) => {
     const contents = await readFile(join(TWEAKS_DIR, `${id}.json`), 'utf-8');
