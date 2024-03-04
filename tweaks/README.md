@@ -62,6 +62,7 @@
 - [Thief 2 (211740)](./211740.json)
 - [Thief Gold (211600)](./211600.json)
 - [Titan Quest Anniversary Edition(475150) (475150)](./475150.json)
+- [V Rising (1604030)](./1604030.json)
 - [Watch_Dogs (243470)](./243470.json)
 - [Way of the Samurai 3 (427510)](./427510.json)
 - [You Need a Budget 4 (227320)](./227320.json)
