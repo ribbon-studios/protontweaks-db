@@ -12,7 +12,7 @@ export default defineConfig({
     hmr: true,
     proxy: {
       '/api': {
-        target: 'https://tweaks.rains.cafe/v2',
+        target: 'https://tweaks.rains.cafe/api/v2',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
