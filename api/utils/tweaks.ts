@@ -27,10 +27,12 @@ export async function getList(tweaks: Tweak[]): Promise<Tweaks> {
   return {
     sha: process.env.GITHUB_SHA ?? 'local',
     short_sha: process.env.GITHUB_SHA?.slice(0, 7) ?? 'local',
-    tweaks: tweaks.map((tweak) => ({
-      id: tweak.id,
-      name: tweak.name,
-    })),
+    tweaks: tweaks
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .map((tweak) => ({
+        id: tweak.id,
+        name: tweak.name,
+      })),
   };
 }
 
