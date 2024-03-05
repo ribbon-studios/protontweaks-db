@@ -9,6 +9,8 @@ Its highly recommended that if you're planning on fetching tweaks from our api t
 
 `https://tweaks.rains.cafe/api/v2/<app-id>.json`
 
+Old versions will get any new apps that are added, however if a feature isn't supported in the old api it won't get mapped.
+
 ### Adding a tweak?
 
 - Lookup your the app id of your steam app.
