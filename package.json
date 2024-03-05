@@ -8,6 +8,7 @@
     "build:ui": "vite build"
   },
   "dependencies": {
+    "@rain-cafe/js-utils": "^1.0.0",
     "@rain-cafe/react-utils": "^2.3.0",
     "@tanstack/react-query": "^5.24.8",
     "clsx": "^2.1.0",
@@ -15,6 +16,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.22.2",
+    "sonner": "^1.4.3",
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {

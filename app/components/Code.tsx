@@ -1,5 +1,7 @@
 import type { FC, ReactNode } from 'react';
 import { cn } from '../utils/cn';
+import { toast } from 'sonner';
+import { delay } from '@rain-cafe/js-utils';
 
 type Props = {
   className?: string;
@@ -15,7 +17,13 @@ export const Code: FC<Props> = ({ className, children, shell = false }) => {
         shell && "before:content-['$']",
         className
       )}
-      onClick={(e) => window.navigator.clipboard.writeText(e.currentTarget.innerText)}
+      onClick={(e) => {
+        toast.promise(delay(window.navigator.clipboard.writeText(e.currentTarget.innerText)), {
+          loading: 'Copying...',
+          success: 'Copied to clipboard!',
+          error: 'Failed to copy to clipboard',
+        });
+      }}
     >
       {children}
     </div>
