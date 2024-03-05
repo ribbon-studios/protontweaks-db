@@ -1,18 +1,9 @@
-import Handlebars from 'handlebars';
 import { readdir, writeFile, readFile } from 'fs/promises';
 import { join } from 'path';
 import type { Tweak, Tweaks } from '../types';
 
 export const TEMPLATES_DIR = join(import.meta.dirname, './templates');
 export const TWEAKS_DIR = join(import.meta.dirname, '../../tweaks');
-
-export async function getTemplate(file: string) {
-  const template = await readFile(join(TEMPLATES_DIR, file), 'utf-8');
-  return Handlebars.compile(template, {
-    strict: true,
-    preventIndent: true,
-  });
-}
 
 export async function getTweaksFiles(): Promise<string[]> {
   const files = await readdir(TWEAKS_DIR, 'utf-8');
@@ -45,14 +36,4 @@ export async function getList(tweaks: Tweak[]): Promise<Tweaks> {
 
 export async function generateTweaksFile(tweaks: Tweaks) {
   await writeFile(join(TWEAKS_DIR, 'tweaks.json'), JSON.stringify(tweaks, null, 2), 'utf-8');
-}
-
-export async function generateReadme(tweaks: Tweak[]) {
-  const template = await getTemplate('README.md.hbs');
-
-  await writeFile(
-    join(TWEAKS_DIR, 'README.md'),
-    template({ tweaks: tweaks.sort((a, b) => a.name.localeCompare(b.name)) }),
-    'utf-8'
-  );
 }

@@ -1,4 +1,4 @@
-import { generateReadme, generateTweaksFile, getList, getTweaks } from './utils/tweaks';
+import { generateTweaksFile, getList, getTweaks } from './utils/tweaks';
 import { generateSchema } from './utils/schema';
 import { migrate } from './migrations';
 import { mkdir, cp } from 'fs/promises';
@@ -10,7 +10,7 @@ async function generate() {
   const tweaks = await getTweaks();
   const list = await getList(tweaks);
 
-  await Promise.all([migrate(list, tweaks), generateSchema(), generateTweaksFile(list), generateReadme(tweaks)]);
+  await Promise.all([migrate(list, tweaks), generateSchema(), generateTweaksFile(list)]);
 
   await mkdir(DIST_DIR, {
     recursive: true,

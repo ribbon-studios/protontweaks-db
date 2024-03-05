@@ -32,6 +32,9 @@ jobs:
 
       - run: bun ci
 
+      - name: Validate Tweaks
+        run: bun test
+
       - name: Generate Readme and tweaks.json
         run: bun build:api
 
