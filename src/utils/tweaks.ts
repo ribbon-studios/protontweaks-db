@@ -1,7 +1,7 @@
 import Handlebars from 'handlebars';
 import { readdir, writeFile, readFile } from 'fs/promises';
 import { join } from 'path';
-import type { Tweak } from '../types';
+import type { Tweak, Tweaks } from '../types';
 
 export const TEMPLATES_DIR = join(import.meta.dirname, './templates');
 export const TWEAKS_DIR = join(import.meta.dirname, '../../tweaks');
@@ -32,20 +32,16 @@ export async function getTweaks(): Promise<Tweak[]> {
   );
 }
 
-export async function generateTweaksFile(tweaks: Tweak[]) {
-  await writeFile(
-    join(TWEAKS_DIR, 'tweaks.json'),
-    JSON.stringify(
-      {
-        sha: process.env.GITHUB_SHA ?? 'local',
-        short_sha: process.env.GITHUB_SHA?.slice(0, 7) ?? 'local',
-        tweaks: tweaks.map((tweak) => tweak.id),
-      },
-      null,
-      2
-    ),
-    'utf-8'
-  );
+export async function getList(tweaks: Tweak[]): Promise<Tweaks> {
+  return {
+    sha: process.env.GITHUB_SHA ?? 'local',
+    short_sha: process.env.GITHUB_SHA?.slice(0, 7) ?? 'local',
+    tweaks: tweaks.map((tweak) => tweak.id),
+  };
+}
+
+export async function generateTweaksFile(tweaks: Tweaks) {
+  await writeFile(join(TWEAKS_DIR, 'tweaks.json'), JSON.stringify(tweaks, null, 2), 'utf-8');
 }
 
 export async function generateReadme(tweaks: Tweak[]) {
