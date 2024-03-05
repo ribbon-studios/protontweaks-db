@@ -25,13 +25,13 @@ export async function migrate(list: Tweaks, tweaks: Tweak[]) {
       const VERSIONED_TWEAKS_DIR = join(TWEAKS_DIR, version);
       const migration = migrations[version as keyof Migrations];
 
+      await mkdir(VERSIONED_TWEAKS_DIR, {
+        recursive: true,
+      });
+
       await Promise.all([
         writeFile(join(VERSIONED_TWEAKS_DIR, 'tweaks.json'), JSON.stringify(migration.list, null, 2), 'utf-8'),
         ...migration.tweaks.map(async (tweak) => {
-          await mkdir(VERSIONED_TWEAKS_DIR, {
-            recursive: true,
-          });
-
           await writeFile(join(VERSIONED_TWEAKS_DIR, `${tweak.id}.json`), JSON.stringify(tweak, null, 2), 'utf-8');
         }),
       ]);
