@@ -1,5 +1,7 @@
 node_modules/
 tweaks/schema.json
 tweaks/tweaks.json
-tweaks/README.md
+tweaks/*.md
+# Ignore any sub directories under tweaks
+tweaks/*/
 *.py

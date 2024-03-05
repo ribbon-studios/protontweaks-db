@@ -3,6 +3,12 @@
 > [!IMPORTANT]  
 > This is the Protontweaks DB repository, you can find the `protontweaks` cli [over here](https://github.com/rain-cafe/protontweaks)
 
+### Usage
+
+Its highly recommended that if you're planning on fetching tweaks from our api that you lock into a specific version.
+
+`https://tweaks.rains.cafe/v1/<app-id>.json`
+
 ### Adding a tweak?
 
 - Lookup your the app id of your steam app.
