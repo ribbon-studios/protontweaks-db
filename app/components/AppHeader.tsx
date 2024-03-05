@@ -46,7 +46,7 @@ export const AppHeader: FC<Props> = ({ onChange }) => {
         <div className="flex flex-1 gap-4">
           <input
             type="text"
-            className="flex-1 bg-white/10 rounded-md min-h-12 px-3 text-lg"
+            className="flex-1 bg-white/10 rounded-md min-h-12 px-3 text-xl"
             value={search}
             placeholder="Search"
             onChange={(e) => onChange?.(e.target.value)}

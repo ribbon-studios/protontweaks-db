@@ -40,7 +40,7 @@ export const Button: FC<Props> = (props) => {
             }
           }}
           className={cn(
-            'flex gap-2 items-center min-h-12 bg-white/10 hover:bg-transparent hover:border-white/10 border border-transparent px-3 rounded-md transition-all',
+            'flex gap-2 items-center justify-center min-w-14 min-h-14 bg-white/10 hover:bg-transparent hover:border-white/10 border border-transparent px-3 rounded-md transition-all',
             props.className
           )}
         />
@@ -52,7 +52,7 @@ export const Button: FC<Props> = (props) => {
         {...props}
         target={props.to.startsWith('http') ? '_blank' : undefined}
         className={cn(
-          'flex gap-2 items-center min-h-12 bg-white/10 hover:bg-transparent hover:border-white/10 border border-transparent px-3 rounded-md transition-all',
+          'flex gap-2 items-center justify-center min-w-14 min-h-14 bg-white/10 hover:bg-transparent hover:border-white/10 border border-transparent px-3 rounded-md transition-all',
           props.className
         )}
       />
@@ -63,7 +63,7 @@ export const Button: FC<Props> = (props) => {
     <button
       {...props}
       className={cn(
-        'flex gap-2 items-center min-h-12 bg-white/10 hover:bg-transparent hover:border-white/10 border border-transparent px-3 rounded-md transition-all',
+        'flex gap-2 items-center justify-center min-w-14 min-h-14 bg-white/10 hover:bg-transparent hover:border-white/10 border border-transparent px-3 rounded-md transition-all',
         props.className
       )}
     />
