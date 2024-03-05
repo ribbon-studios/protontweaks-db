@@ -20,9 +20,20 @@
         "env": {
           "type": "object",
           "additionalProperties": { "type": "string" }
+        },
+        "settings": {
+          "type": "object",
+          "properties": {
+            "esync": {
+              "type": "boolean"
+            },
+            "fsync": {
+              "type": "boolean"
+            }
+          }
         }
       },
-      "required": ["tricks", "env"]
+      "required": ["tricks", "env", "settings"]
     },
     "issues": {
       "type": "array",

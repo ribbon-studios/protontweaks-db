@@ -1,8 +1,15 @@
 {
-  "name": "Game / App Name",
+  "id": "template",
+  "name": ".template",
   "tweaks": {
-    "dlls": ["gdiplus"],
-    "fonts": ["andale"],
-    "settings": ["win7"]
-  }
+    "tricks": ["gdiplus"],
+    "env": {
+      "PULSE_LATENCY_MSEC": "60"
+    },
+    "settings": {
+      "esync": false,
+      "fsync": false
+    }
+  },
+  "issues": []
 }

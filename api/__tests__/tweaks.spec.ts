@@ -6,19 +6,17 @@ import { getTweakValidator } from '../utils/schema';
 import type { Tweak } from '../types';
 
 describe('tweaks', async () => {
-  const [tweaks, isTweak] = await Promise.all([getTweaks(), getTweakValidator()]);
+  const [tweaks, isTweak] = await Promise.all([getTweaks(true), getTweakValidator()]);
   const longestName = tweaks.reduce(
     (output, tweak) => (tweak.name.length > output ? tweak.name.length + 2 : output),
     0
   );
-  const tests = tweaks
+
+  const tests: [string, string, Tweak][] = tweaks
     .sort((a, b) => a.name.localeCompare(b.name))
-    .map((tweak) => [`"${tweak.name}"`.padEnd(longestName, ' '), tweak.id]);
+    .map((tweak) => [`"${tweak.name}"`.padEnd(longestName, ' '), tweak.id, tweak]);
 
-  it.each(tests)('validating %s @ %s', async (name, id) => {
-    const contents = await readFile(join(TWEAKS_DIR, `${id}.json`), 'utf-8');
-    const tweak: Tweak = JSON.parse(contents);
-
+  it.each(tests)('validating %s @ %s', async (name, id, tweak) => {
     const valid = isTweak(tweak);
 
     if (isTweak.errors) {

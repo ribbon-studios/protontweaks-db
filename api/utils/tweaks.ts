@@ -5,15 +5,18 @@ import type { Tweak, Tweaks } from '../types';
 export const TEMPLATES_DIR = join(import.meta.dirname, './templates');
 export const TWEAKS_DIR = join(import.meta.dirname, '../../tweaks');
 
-export async function getTweaksFiles(): Promise<string[]> {
+export async function getTweaksFiles(includeTemplate: boolean = false): Promise<string[]> {
   const files = await readdir(TWEAKS_DIR, 'utf-8');
   return files.filter(
-    (file) => file.endsWith('.json') && !file.startsWith('.') && !['tweaks.json', 'schema.json'].includes(file)
+    (file) =>
+      file.endsWith('.json') &&
+      (!file.startsWith('.') || includeTemplate) &&
+      !['tweaks.json', 'schema.json'].includes(file)
   );
 }
 
-export async function getTweaks(): Promise<Tweak[]> {
-  const files = await getTweaksFiles();
+export async function getTweaks(includeTemplate?: boolean): Promise<Tweak[]> {
+  const files = await getTweaksFiles(includeTemplate);
 
   return await Promise.all(
     files.map(async (file) => {
