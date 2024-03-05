@@ -34,7 +34,7 @@ export const AppFooter: FC = () => {
         </div>
       </div>
       <div className="flex flex-col gap-4">
-        <Button>
+        <Button to="https://github.com/rain-cafe/protontweaks-db/issues">
           <Bug />
         </Button>
         <Button to="https://github.com/rain-cafe/protontweaks-db">
