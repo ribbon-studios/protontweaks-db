@@ -33,7 +33,7 @@ jobs:
       - run: bun ci
 
       - name: Generate Readme and tweaks.json
-        run: bun start
+        run: bun build:api
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:

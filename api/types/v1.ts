@@ -1,5 +1,4 @@
-export * from './v1';
-
+// DO NOT CHANGE THESE AFTER THEY'RE CREATED
 export type Tweaks = {
   sha: string;
   short_sha: string;
