@@ -9,7 +9,11 @@ export type Tweak = {
   name: string;
   tweaks: {
     tricks: string[];
-    env?: Record<string, string>;
+    env: Record<string, string>;
+    settings: {
+      esync?: boolean;
+      fsync?: boolean;
+    };
   };
   issues: {
     solution: string | null;

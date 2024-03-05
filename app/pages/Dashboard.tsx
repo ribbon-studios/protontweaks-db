@@ -1,10 +1,8 @@
-import { useState, type FC, useMemo, useEffect, useContext } from 'react';
-import { useQuery } from '@tanstack/react-query';
+import { type FC, useMemo, useEffect } from 'react';
 import { fetch } from '../utils/fetch';
 import type { Tweaks } from '@/api/types';
 import { useLoaderData } from '@rain-cafe/react-utils/react-router';
 import { useSearch } from '../context/search';
-import { Link } from 'react-router-dom';
 import { AppImage } from '../components/AppImage';
 
 export async function loader() {
