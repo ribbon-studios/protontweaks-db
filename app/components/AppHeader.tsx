@@ -62,17 +62,16 @@ export const AppHeader: FC<Props> = ({ onChange }) => {
           </Button>
         </div>
       </div>
-      <div
+      <Button
         className={cn(
-          'fixed top-20 opacity-0 pointer-events-none left-1/2 -translate-x-1/2 z-50 flex flex-col gap-4 items-center transition-all',
-          sticky && 'top-28 opacity-100 pointer-events-auto'
+          'fixed top-20 opacity-0 pointer-events-none left-1/2 -translate-x-1/2 z-50 transition-all rounded-full px-4 bg-white/80 text-black hover:bg-white',
+          sticky && 'top-36 sm:top-28 opacity-100 pointer-events-auto'
         )}
+        to="#root"
       >
-        <Button className="rounded-full px-4 bg-white/80 text-black hover:bg-white" to="#root">
-          Back to the Top!
-          <ArrowUp />
-        </Button>
-      </div>
+        Back to the Top!
+        <ArrowUp />
+      </Button>
     </>
   );
 };
