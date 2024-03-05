@@ -9,8 +9,6 @@ type Props = {
 };
 
 export const AppImage: FC<Props> = ({ className, id, to }) => {
-  const image = <img className="rounded-md" src={`https://steamcdn-a.akamaihd.net/steam/apps/${id}/header.jpg`} />;
-
   return to ? (
     <Link
       className={cn(
@@ -19,7 +17,7 @@ export const AppImage: FC<Props> = ({ className, id, to }) => {
       )}
       to={to}
     >
-      {image}
+      <img className="rounded-md" src={`https://steamcdn-a.akamaihd.net/steam/apps/${id}/header.jpg`} />
     </Link>
   ) : (
     <img className={cn('rounded-md', className)} src={`https://steamcdn-a.akamaihd.net/steam/apps/${id}/header.jpg`} />

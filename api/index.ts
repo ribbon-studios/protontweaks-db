@@ -2,7 +2,7 @@ import { generateTweaksFile, getList, getTweaks } from './utils/tweaks';
 import { generateSchema } from './utils/schema';
 import { migrate } from './migrations';
 import { mkdir, cp } from 'fs/promises';
-import { join } from 'path';
+import { join, basename } from 'path';
 
 const DIST_DIR = join(import.meta.dirname, '../dist/api');
 
@@ -18,6 +18,10 @@ async function generate() {
 
   await cp(join(import.meta.dirname, '../tweaks'), DIST_DIR, {
     recursive: true,
+    filter: (source) => {
+      const name = basename(source);
+      return !name.startsWith('.') && name !== 'schema.json';
+    },
   });
 }
 
