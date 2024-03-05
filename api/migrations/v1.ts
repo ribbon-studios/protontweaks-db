@@ -1,8 +1,10 @@
 import type { Migration } from '.';
-import type { Tweak, Tweaks, V1 } from '../types';
+import type { V1, V2 } from '../types';
 
-export async function migrate(list: Tweaks, tweaks: Tweak[]): Promise<Migration<V1.Tweaks, V1.Tweak[]>> {
-  // TODO: Map these back to V1 once a breaking change occurs
+/**
+ * List of Tweaks changed from a list of ids to a list of objects containing id and name
+ */
+export async function migrate(list: V2.Tweaks, tweaks: V2.Tweak[]): Promise<Migration<V1.Tweaks, V1.Tweak[]>> {
   return {
     list: {
       ...list,

@@ -1,13 +1,15 @@
 import { join } from 'path';
 import { writeFile, mkdir } from 'fs/promises';
-import type { Tweak, Tweaks, V1, V2 } from '../types';
+import type { Tweak, Tweaks, V1, V2, V3 } from '../types';
 import { TWEAKS_DIR } from '../utils/tweaks';
 import * as v1 from './v1';
 import * as v2 from './v2';
+import * as v3 from './v3';
 
 export type Migrations = {
   v1: Migration<V1.Tweaks, V1.Tweak[]>;
   v2: Migration<V2.Tweaks, V2.Tweak[]>;
+  v3: Migration<V3.Tweaks, V3.Tweak[]>;
 };
 
 export type Migration<L, T> = {
@@ -16,11 +18,14 @@ export type Migration<L, T> = {
 };
 
 export async function migrate(list: Tweaks, tweaks: Tweak[]) {
-  const [v1Tweaks, v2Tweaks] = await Promise.all([v1.migrate(list, tweaks), v2.migrate(list, tweaks)]);
+  const v3Tweaks = await v3.migrate(list, tweaks);
+  const v2Tweaks = await v2.migrate(v3Tweaks.list, v3Tweaks.tweaks);
+  const v1Tweaks = await v1.migrate(v2Tweaks.list, v2Tweaks.tweaks);
 
   const migrations: Migrations = {
     v1: v1Tweaks,
     v2: v2Tweaks,
+    v3: v3Tweaks,
   };
 
   await Promise.all(
