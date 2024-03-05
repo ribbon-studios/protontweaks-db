@@ -35,15 +35,8 @@ jobs:
       - name: Generate Readme and tweaks.json
         run: bun build:api
 
-      - uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: 'chore: update generated files'
-          file_pattern: 'tweaks/README.md'
-          commit_user_name: Cozy Bot
-          commit_user_email: bot@rains.cafe
-
-      - name: Remove Dotfiles from Tweaks
-        run: rm -f 'tweaks/.*' 'tweaks/README.md'
+      - name: Generate UI
+        run: bun build:ui
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
@@ -51,7 +44,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './tweaks'
+          path: './dist'
 
   deploy:
     needs: build

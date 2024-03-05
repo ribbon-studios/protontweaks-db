@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply flex flex-col bg-zinc-800 text-white bg-gradient-to-br h-dvh max-w-[100vw] overflow-x-hidden;
+}
+
+#root {
+  @apply flex flex-1 flex-col gap-4;
+}

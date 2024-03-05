@@ -1,0 +1,8 @@
+{
+  "plugins": {
+    "autoprefixer": {},
+    "tailwindcss/nesting": {},
+    "tailwindcss": {},
+    "cssnano": {}
+  }
+}

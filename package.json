@@ -3,16 +3,31 @@
   "type": "module",
   "scripts": {
     "ci": "bun install --frozen-lockfile",
-    "build:api": "bun api/index.ts"
-  },
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+    "dev": "vite dev",
+    "build:api": "bun api/index.ts",
+    "build:ui": "vite build"
   },
   "dependencies": {
+    "@rain-cafe/react-utils": "^2.3.0",
+    "@tanstack/react-query": "^5.24.8",
+    "clsx": "^2.1.0",
+    "lucide-react": "^0.344.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.2",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.8",
+    "@types/react": "^18.2.62",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "cssnano": "^6.0.5",
+    "postcss": "^8.4.35",
     "ajv": "^8.12.0",
-    "handlebars": "^4.7.8"
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.1.5",
+    "vitest": "^1.3.1"
   }
 }
