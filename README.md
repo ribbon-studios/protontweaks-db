@@ -1,7 +1,11 @@
 ## Protontweaks DB
 
 > [!IMPORTANT]  
-> This is the Protontweaks DB repository, you can find the `protontweaks` cli [over here](https://github.com/rain-cafe/protontweaks)
+> This is the Protontweaks DB repository, you can find its sister repositories at the following links!
+
+- [CLI](https://github.com/rain-cafe/protontweaks)
+- [App](https://github.com/rain-cafe/protontweaks-ui)
+- [Database](https://github.com/rain-cafe/protontweaks-db) _(you are here)_
 
 ### Usage
 
