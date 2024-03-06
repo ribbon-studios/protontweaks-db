@@ -1,5 +1,4 @@
 {
-  "css.customData": [".vscode/tailwind.json"],
   "nixEnvSelector.suggestion": false,
   "editor.detectIndentation": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -10,14 +9,6 @@
   },
   "nix.enableLanguageServer": true,
   "nix.serverPath": "nixd",
-  "[toml]": {
-    "editor.defaultFormatter": "tamasfe.even-better-toml"
-  },
-  "[rust]": {
-    "editor.defaultFormatter": "rust-lang.rust-analyzer"
-  },
   "nixEnvSelector.nixFile": "${workspaceFolder}/shell.nix",
-  "nixEnvSelector.args": "--impure",
-  "tailwindCSS.suggestions": true,
-  "tailwindCSS.experimental.classRegex": ["className: '(.*)'"]
+  "nixEnvSelector.args": "--impure"
 }

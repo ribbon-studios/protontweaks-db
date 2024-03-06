@@ -4,7 +4,7 @@ import { migrate } from './migrations';
 import { mkdir, cp } from 'fs/promises';
 import { join, basename } from 'path';
 
-const DIST_DIR = join(import.meta.dirname, '../dist/api');
+const DIST_DIR = join(import.meta.dirname, '../dist');
 
 async function generate() {
   const tweaks = await getTweaks();

@@ -7,7 +7,7 @@
 
 Its highly recommended that if you're planning on fetching tweaks from our api that you lock into a specific version.
 
-`https://tweaks.rains.cafe/api/v2/<app-id>.json`
+`https://api.protontweaks.com/v2/<app-id>.json`
 
 Old versions will get any new apps that are added, however if a feature isn't supported in the old api it won't get mapped.
 

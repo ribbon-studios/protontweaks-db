@@ -35,11 +35,8 @@ jobs:
       - name: Validate Tweaks
         run: bun test
 
-      - name: Generate UI
-        run: bun build:ui
-
       - name: Generate Readme and tweaks.json
-        run: bun build:api
+        run: bun run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
