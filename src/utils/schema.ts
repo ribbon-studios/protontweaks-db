@@ -3,7 +3,7 @@ import { DLLS, FONTS, SETTINGS } from './db/index';
 import Ajv from 'ajv';
 import { writeFile } from 'fs/promises';
 import { join } from 'path';
-import { TWEAKS_DIR } from './tweaks';
+import { APPS_DIR } from './apps';
 
 const ajv = new Ajv({
   allErrors: true,
@@ -19,12 +19,12 @@ export async function getSchema() {
   return output;
 }
 
-export async function getTweakValidator() {
+export async function getAppValidator() {
   return ajv.compile(await getSchema());
 }
 
 export async function generateSchema() {
   const schema = await getSchema();
 
-  await writeFile(join(TWEAKS_DIR, 'schema.json'), JSON.stringify(schema, null, 2), 'utf-8');
+  await writeFile(join(APPS_DIR, 'schema.json'), JSON.stringify(schema, null, 2), 'utf-8');
 }

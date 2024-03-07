@@ -24,7 +24,7 @@ Old versions will get any new apps that are added, however if a feature isn't su
 > [!TIP]
 > You can discover the app id by using [https://steamdb.info](https://steamdb.info/apps/)!
 
-- Copy the contents of [template](./tweaks/.template.json) and create a json file with the name `[your-app-id].json`
+- Copy the contents of [template](./apps/.template.json) and create a json file with the name `[your-app-id].json`
 - Add any dlls, fonts, etc.
 - Create a PR with your changes!
 

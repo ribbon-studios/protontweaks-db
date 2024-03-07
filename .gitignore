@@ -1,8 +1,8 @@
 node_modules/
-tweaks/schema.json
-tweaks/tweaks.json
-tweaks/*.md
-# Ignore any sub directories under tweaks
-tweaks/*/
+apps/schema.json
+apps/apps.json
+apps/*.md
+# Ignore any sub directories under apps
+apps/*/
 dist/
 *.py

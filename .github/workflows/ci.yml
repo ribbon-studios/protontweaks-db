@@ -1,4 +1,4 @@
-name: Deploy tweaks to GitHub Pages
+name: Deploy API to GitHub Pages
 
 on:
   push:
@@ -32,10 +32,10 @@ jobs:
 
       - run: bun ci
 
-      - name: Validate Tweaks
+      - name: Validate Apps
         run: bun test
 
-      - name: Generate Readme and tweaks.json
+      - name: Generate apps.json and old versions
         run: bun run build
 
       - name: Setup Pages

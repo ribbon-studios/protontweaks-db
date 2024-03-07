@@ -1,4 +1,4 @@
-import { generateTweaksFile, getList, getTweaks } from './utils/tweaks';
+import { generateAppsListFile, getAppsList, getApps, APPS_DIR } from './utils/apps';
 import { generateSchema } from './utils/schema';
 import { migrate } from './migrations';
 import { mkdir, cp } from 'fs/promises';
@@ -7,16 +7,16 @@ import { join, basename } from 'path';
 const DIST_DIR = join(import.meta.dirname, '../dist');
 
 async function generate() {
-  const tweaks = await getTweaks();
-  const list = await getList(tweaks);
+  const apps = await getApps();
+  const list = await getAppsList(apps);
 
-  await Promise.all([migrate(list, tweaks), generateSchema(), generateTweaksFile(list)]);
+  await Promise.all([migrate(list, apps), generateSchema(), generateAppsListFile(list)]);
 
   await mkdir(DIST_DIR, {
     recursive: true,
   });
 
-  await cp(join(import.meta.dirname, '../tweaks'), DIST_DIR, {
+  await cp(APPS_DIR, DIST_DIR, {
     recursive: true,
     filter: (source) => {
       const name = basename(source);

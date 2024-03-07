@@ -10,6 +10,6 @@ export async function migrate(list: V2.Tweaks, tweaks: V2.Tweak[]): Promise<Migr
       ...list,
       tweaks: list.tweaks.map((tweak) => tweak.id),
     },
-    tweaks,
+    apps: tweaks,
   };
 }
