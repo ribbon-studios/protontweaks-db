@@ -17,8 +17,13 @@ Its highly recommended that if you're planning on fetching tweaks from our api t
 
 Old versions will get any new apps that are added, however if a feature isn't supported in the old api it won't get mapped.
 
-<!-- Prior versions will be removed approximately a year after they're added. -->
+Prior versions will be removed approximately a year after they're added.
 
+- **V4:** Active
+- **V3:** March 1st, 2025
+- **V2:** March 1st, 2025
+- **V1:** March 1st, 2025
+        
 ### Adding a tweak?
 
 - Lookup your the app id of your steam app.
