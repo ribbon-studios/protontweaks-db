@@ -45,11 +45,19 @@ Prior versions will be removed approximately a year after they're added.
     "tricks": ["gdiplus"],
     // Set any environment variables here
     "env": {},
+    // true      => cli is confirmed to work.
+    // false     => cli is confirmed to cause problems.
+    // 
+    // If the option is not present then the given cli has not been tested.
+    // Consumers of the API can interpret this however they want.
+    // In the case of `protontweaks` it will do the following:
+    // - gamemode => run unless the user has explicitly disabled it (or it isn't installed)
+    // - mangohud => not run unless the user has explicitly enabled it and it is installed
+    // 
+    // Because of how mangohud functions it tends to be safer to assume it'll cause problems unless confirmed
     "settings": {
-      // Informs the client that ESync should be disabled
-      "esync": false,
-      // Informs the client that FSync should be disabled
-      "fsync": false
+      "gamemode": true,
+      "mangohud": false
     }
   }
 }
