@@ -27,7 +27,6 @@ export async function getApps(includeTemplate?: boolean): Promise<App[]> {
 }
 
 export async function getAppsList(apps: App[]): Promise<AppsList> {
-  console.log(apps);
   return {
     sha: process.env.GITHUB_SHA ?? 'local',
     short_sha: process.env.GITHUB_SHA?.slice(0, 7) ?? 'local',

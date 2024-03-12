@@ -1,15 +1,17 @@
 import { join } from 'path';
 import { writeFile, mkdir } from 'fs/promises';
-import type { AppsList, App, V1, V2, V3 } from '../types';
+import type { AppsList, App, V1, V2, V3, V4 } from '../types';
 import { APPS_DIR } from '../utils/apps';
 import * as v1 from './v1';
 import * as v2 from './v2';
 import * as v3 from './v3';
+import * as v4 from './v4';
 
 export type Migrations = {
   v1: Migration<V1.Tweaks, V1.Tweak[]>;
   v2: Migration<V2.Tweaks, V2.Tweak[]>;
   v3: Migration<V3.AppsList, V3.App[]>;
+  v4: Migration<V4.AppsList, V4.App[]>;
 };
 
 export type Migration<L, T> = {
@@ -17,15 +19,17 @@ export type Migration<L, T> = {
   apps: T;
 };
 
-export async function migrate(list: AppsList, apps: App[]) {
-  const v3Apps = await v3.migrate(list, apps);
-  const v2Apps = await v2.migrate(v3Apps.list, v3Apps.apps);
-  const v1Apps = await v1.migrate(v2Apps.list, v2Apps.apps);
+export async function migrate(initial: Migration<AppsList, App[]>) {
+  const v4Apps = await v4.migrate(initial);
+  const v3Apps = await v3.migrate(v4Apps);
+  const v2Apps = await v2.migrate(v3Apps);
+  const v1Apps = await v1.migrate(v2Apps);
 
   const migrations: Migrations = {
     v1: v1Apps,
     v2: v2Apps,
     v3: v3Apps,
+    v4: v4Apps,
   };
 
   await Promise.all(

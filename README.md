@@ -13,9 +13,11 @@
 
 Its highly recommended that if you're planning on fetching tweaks from our api that you lock into a specific version.
 
-`https://api.protontweaks.com/v2/<app-id>.json`
+`https://api.protontweaks.com/v4/<app-id>.json`
 
 Old versions will get any new apps that are added, however if a feature isn't supported in the old api it won't get mapped.
+
+<!-- Prior versions will be removed approximately a year after they're added. -->
 
 ### Adding a tweak?
 

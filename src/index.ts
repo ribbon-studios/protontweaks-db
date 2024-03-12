@@ -10,7 +10,14 @@ async function generate() {
   const apps = await getApps();
   const list = await getAppsList(apps);
 
-  await Promise.all([migrate(list, apps), generateSchema(), generateAppsListFile(list)]);
+  await Promise.all([
+    migrate({
+      list,
+      apps,
+    }),
+    generateSchema(),
+    generateAppsListFile(list),
+  ]);
 
   await mkdir(DIST_DIR, {
     recursive: true,
