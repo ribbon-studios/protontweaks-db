@@ -2,11 +2,12 @@
   "id": "63600",
   "name": "realMyst",
   "tweaks": {
-    "tricks": [
-      "icodecs"
-    ],
+    "tricks": ["icodecs"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

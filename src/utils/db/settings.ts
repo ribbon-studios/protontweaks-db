@@ -111,4 +111,6 @@ export const SETTINGS = [
   'winme',
   'winver=',
   'winxp',
-];
+] as const;
+
+export type SettingsValues = (typeof SETTINGS)[number];

@@ -2,11 +2,12 @@
   "id": "758330",
   "name": "Shenmue I & II",
   "tweaks": {
-    "tricks": [
-      "dotnet46"
-    ],
+    "tricks": ["dotnet46"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

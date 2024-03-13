@@ -2,11 +2,12 @@
   "id": "390710",
   "name": "SUGURI 2",
   "tweaks": {
-    "tricks": [
-      "d3dxof"
-    ],
+    "tricks": ["d3dxof"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

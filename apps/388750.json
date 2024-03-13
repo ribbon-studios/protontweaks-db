@@ -2,14 +2,12 @@
   "id": "388750",
   "name": "Chronophantasma Extend",
   "tweaks": {
-    "tricks": [
-      "devenum",
-      "quartz",
-      "wmp9",
-      "xact"
-    ],
+    "tricks": ["devenum", "quartz", "wmp9", "xact"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

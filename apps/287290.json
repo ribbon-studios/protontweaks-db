@@ -2,11 +2,12 @@
   "id": "287290",
   "name": "Resident Evil Revelations 2 / Biohazard Revelations 2",
   "tweaks": {
-    "tricks": [
-      "wmp11"
-    ],
+    "tricks": ["wmp11"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

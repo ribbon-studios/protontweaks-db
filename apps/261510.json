@@ -2,11 +2,12 @@
   "id": "261510",
   "name": "Tesla Effect",
   "tweaks": {
-    "tricks": [
-      "corefonts"
-    ],
+    "tricks": ["corefonts"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

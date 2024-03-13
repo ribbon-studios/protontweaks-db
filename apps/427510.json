@@ -2,11 +2,12 @@
   "id": "427510",
   "name": "Way of the Samurai 3",
   "tweaks": {
-    "tricks": [
-      "lavfilters"
-    ],
+    "tricks": ["lavfilters"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

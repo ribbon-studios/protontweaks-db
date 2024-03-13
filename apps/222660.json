@@ -2,11 +2,12 @@
   "id": "222660",
   "name": "Retro/Grade",
   "tweaks": {
-    "tricks": [
-      "windowscodecs"
-    ],
+    "tricks": ["windowscodecs"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

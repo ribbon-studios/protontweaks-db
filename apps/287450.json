@@ -2,13 +2,12 @@
   "id": "287450",
   "name": "Rise of Nations: Extended Edition",
   "tweaks": {
-    "tricks": [
-      "crypt32",
-      "directmusic",
-      "sound=alsa"
-    ],
+    "tricks": ["crypt32", "directmusic", "sound=alsa"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

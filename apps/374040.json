@@ -2,11 +2,12 @@
   "id": "374040",
   "name": "Portal Knights",
   "tweaks": {
-    "tricks": [
-      "xact"
-    ],
+    "tricks": ["xact"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

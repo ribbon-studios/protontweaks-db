@@ -2,11 +2,12 @@
   "id": "410900",
   "name": "Forts",
   "tweaks": {
-    "tricks": [
-      "ole32"
-    ],
+    "tricks": ["ole32"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

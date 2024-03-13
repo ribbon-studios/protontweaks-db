@@ -2,11 +2,12 @@
   "id": "329380",
   "name": "Stealth Inc 2: A Game of Clones",
   "tweaks": {
-    "tricks": [
-      "dsound"
-    ],
+    "tricks": ["dsound"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

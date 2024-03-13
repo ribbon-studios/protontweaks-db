@@ -2,12 +2,12 @@
   "id": "1097880",
   "name": "Super Naughty Maid 2",
   "tweaks": {
-    "tricks": [
-      "quartz",
-      "wmp9"
-    ],
+    "tricks": ["quartz", "wmp9"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

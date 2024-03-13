@@ -40,4 +40,6 @@ export const FONTS = [
   'webdings',
   'wenquanyi',
   'wenquanyizenhei',
-];
+] as const;
+
+export type FontValues = (typeof FONTS)[number];

@@ -2,11 +2,12 @@
   "id": "475150",
   "name": "Titan Quest Anniversary Edition(475150)",
   "tweaks": {
-    "tricks": [
-      "winxp"
-    ],
+    "tricks": ["winxp"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

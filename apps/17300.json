@@ -2,11 +2,12 @@
   "id": "17300",
   "name": "Crysis",
   "tweaks": {
-    "tricks": [
-      "d3dcompiler_43"
-    ],
+    "tricks": ["d3dcompiler_43"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

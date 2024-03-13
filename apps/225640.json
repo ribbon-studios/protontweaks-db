@@ -2,11 +2,12 @@
   "id": "225640",
   "name": "Sacred 2 Gold",
   "tweaks": {
-    "tricks": [
-      "physx"
-    ],
+    "tricks": ["physx"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

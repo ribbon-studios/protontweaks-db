@@ -2,11 +2,12 @@
   "id": "289620",
   "name": "Collapse",
   "tweaks": {
-    "tricks": [
-      "wmp9"
-    ],
+    "tricks": ["wmp9"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

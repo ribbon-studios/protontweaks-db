@@ -2,11 +2,12 @@
   "id": "111600",
   "name": "Serious Sam Double D XXL",
   "tweaks": {
-    "tricks": [
-      "dotnet40"
-    ],
+    "tricks": ["dotnet40"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

@@ -1,22 +1,30 @@
-import schema from './templates/schema.json';
 import { DLLS, FONTS, SETTINGS } from './db/index';
 import Ajv from 'ajv';
 import { writeFile } from 'fs/promises';
 import { join } from 'path';
 import { APPS_DIR } from './apps';
+import * as TJS from 'typescript-json-schema';
+import { resolve } from 'path';
 
 const ajv = new Ajv({
   allErrors: true,
 });
 
 export async function getSchema() {
-  const output = {
-    ...schema,
-  };
+  const tsconfig = await import('../../tsconfig.json');
+  const program = TJS.getProgramFromFiles([resolve('./src/types/index.ts')], tsconfig.compilerOptions);
+  const schema = TJS.generateSchema(
+    program,
+    'App',
+    {
+      required: true,
+    },
+    [resolve('./src/types/index.ts')]
+  );
 
-  output.properties.tweaks.properties.tricks.items.enum = [...DLLS, ...FONTS, ...SETTINGS];
+  if (!schema) throw new Error('Failed to generate schema!');
 
-  return output;
+  return schema;
 }
 
 export async function getAppValidator() {

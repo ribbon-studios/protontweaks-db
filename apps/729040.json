@@ -2,11 +2,12 @@
   "id": "729040",
   "name": "Borderlands GOTY Enhanced",
   "tweaks": {
-    "tricks": [
-      "dotnet40"
-    ],
+    "tricks": ["dotnet40"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

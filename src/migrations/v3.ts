@@ -20,10 +20,13 @@ export async function migrate({ list, apps }: Migration<V4.AppsList, V4.App>): P
         delete app.tweaks.env.PROTON_NO_FSYNC;
       }
 
+      // Opting to discard any system tweaks to prevent unexpected issues
+      const { system, ...tweaks } = app.tweaks;
+
       return {
         ...app,
         tweaks: {
-          ...app.tweaks,
+          ...tweaks,
           settings,
         },
       };

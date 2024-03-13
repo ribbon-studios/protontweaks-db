@@ -2,11 +2,12 @@
   "id": "489830",
   "name": "The Elder Scrolls V: Skyrim Special Edition",
   "tweaks": {
-    "tricks": [
-      "faudio"
-    ],
+    "tricks": ["faudio"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

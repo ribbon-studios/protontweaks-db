@@ -2,11 +2,12 @@
   "id": "910830",
   "name": "Rebel Galaxy Outlaw",
   "tweaks": {
-    "tricks": [
-      "mfc42"
-    ],
+    "tricks": ["mfc42"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

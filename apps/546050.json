@@ -2,11 +2,12 @@
   "id": "546050",
   "name": "Puyo Puyo Tetris",
   "tweaks": {
-    "tricks": [
-      "xact"
-    ],
+    "tricks": ["xact"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

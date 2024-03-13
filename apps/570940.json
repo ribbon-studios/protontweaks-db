@@ -2,11 +2,12 @@
   "id": "570940",
   "name": "Dark Souls Remastered",
   "tweaks": {
-    "tricks": [
-      "vcrun2017"
-    ],
+    "tricks": ["vcrun2017"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

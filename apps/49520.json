@@ -2,11 +2,12 @@
   "id": "49520",
   "name": "Borderlands 2",
   "tweaks": {
-    "tricks": [
-      "physx"
-    ],
+    "tricks": ["physx"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

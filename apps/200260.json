@@ -2,17 +2,12 @@
   "id": "200260",
   "name": "Batman Arkham City",
   "tweaks": {
-    "tricks": [
-      "dotnet20",
-      "dotnet35",
-      "physx",
-      "mdx",
-      "d3dcompiler_43",
-      "d3dx9_43",
-      "win10"
-    ],
+    "tricks": ["dotnet20", "dotnet35", "physx", "mdx", "d3dcompiler_43", "d3dx9_43", "win10"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

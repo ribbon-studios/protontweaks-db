@@ -2,11 +2,12 @@
   "id": "21690",
   "name": "Resident Evil 5",
   "tweaks": {
-    "tricks": [
-      "wmp11"
-    ],
+    "tricks": ["wmp11"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

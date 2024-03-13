@@ -2,12 +2,12 @@
   "id": "243470",
   "name": "Watch_Dogs",
   "tweaks": {
-    "tricks": [
-      "xact",
-      "winxp"
-    ],
+    "tricks": ["xact", "winxp"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

@@ -2,11 +2,12 @@
   "id": "46330",
   "name": "Space Rangers 2: Reboot",
   "tweaks": {
-    "tricks": [
-      "vb6run"
-    ],
+    "tricks": ["vb6run"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

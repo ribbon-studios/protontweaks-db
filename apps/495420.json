@@ -2,12 +2,12 @@
   "id": "495420",
   "name": "State of Decay 2",
   "tweaks": {
-    "tricks": [
-      "d3dcompiler_47",
-      "win7"
-    ],
+    "tricks": ["d3dcompiler_47", "win7"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

@@ -2,17 +2,12 @@
   "id": "70400",
   "name": "Recettear: An Item Shop's Tale",
   "tweaks": {
-    "tricks": [
-      "dmime",
-      "dmloader",
-      "dmsynth",
-      "dmusic",
-      "dsound",
-      "dswave",
-      "sound=alsa"
-    ],
+    "tricks": ["dmime", "dmloader", "dmsynth", "dmusic", "dsound", "dswave", "sound=alsa"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

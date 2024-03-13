@@ -2,12 +2,12 @@
   "id": "8800",
   "name": "Civilization 4 (Beyond the Sword)",
   "tweaks": {
-    "tricks": [
-      "msxml3",
-      "msxml4"
-    ],
+    "tricks": ["msxml3", "msxml4"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

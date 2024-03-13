@@ -2,11 +2,12 @@
   "id": "221040",
   "name": "Resident Evil 6 / Biohazard 6",
   "tweaks": {
-    "tricks": [
-      "wmp11"
-    ],
+    "tricks": ["wmp11"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

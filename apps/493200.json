@@ -2,12 +2,12 @@
   "id": "493200",
   "name": "RiME",
   "tweaks": {
-    "tricks": [
-      "xact",
-      "dinput8"
-    ],
+    "tricks": ["xact", "dinput8"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

@@ -2,11 +2,12 @@
   "id": "242920",
   "name": "Banished",
   "tweaks": {
-    "tricks": [
-      "xact"
-    ],
+    "tricks": ["xact"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

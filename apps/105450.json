@@ -2,17 +2,12 @@
   "id": "105450",
   "name": "Age Of Empire 3: Complete Collection",
   "tweaks": {
-    "tricks": [
-      "dsound",
-      "l3codecx",
-      "quartz",
-      "mfc42",
-      "d3dx9",
-      "dotnet20",
-      "corefonts"
-    ],
+    "tricks": ["dsound", "l3codecx", "quartz", "mfc42", "d3dx9", "dotnet20", "corefonts"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

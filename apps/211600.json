@@ -2,11 +2,12 @@
   "id": "211600",
   "name": "Thief Gold",
   "tweaks": {
-    "tricks": [
-      "vcrun2008"
-    ],
+    "tricks": ["vcrun2008"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

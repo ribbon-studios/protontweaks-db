@@ -2,13 +2,12 @@
   "id": "24960",
   "name": "Battlefield: Bad Company 2",
   "tweaks": {
-    "tricks": [
-      "directx9",
-      "corefonts",
-      "win7"
-    ],
+    "tricks": ["directx9", "corefonts", "win7"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

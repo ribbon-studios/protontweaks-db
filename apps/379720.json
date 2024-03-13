@@ -2,11 +2,12 @@
   "id": "379720",
   "name": "Doom 2016",
   "tweaks": {
-    "tricks": [
-      "vcrun2015"
-    ],
+    "tricks": ["vcrun2015"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

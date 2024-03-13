@@ -2,11 +2,12 @@
   "id": "644930",
   "name": "They Are Billions",
   "tweaks": {
-    "tricks": [
-      "gdiplus"
-    ],
+    "tricks": ["gdiplus"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": [
     {

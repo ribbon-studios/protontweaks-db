@@ -2,11 +2,12 @@
   "id": "280200",
   "name": "Eterium",
   "tweaks": {
-    "tricks": [
-      "xna40"
-    ],
+    "tricks": ["xna40"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

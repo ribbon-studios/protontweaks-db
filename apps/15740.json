@@ -2,13 +2,12 @@
   "id": "15740",
   "name": "Oddworld: Munch's Oddysee",
   "tweaks": {
-    "tricks": [
-      "devenum",
-      "quartz",
-      "wmp9"
-    ],
+    "tricks": ["devenum", "quartz", "wmp9"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

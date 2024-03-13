@@ -2,11 +2,12 @@
   "id": "211740",
   "name": "Thief 2",
   "tweaks": {
-    "tricks": [
-      "vcrun2008"
-    ],
+    "tricks": ["vcrun2008"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

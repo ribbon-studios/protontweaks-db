@@ -2,15 +2,12 @@
   "id": "261110",
   "name": "Killer is Dead at Launch",
   "tweaks": {
-    "tricks": [
-      "dotnet45",
-      "directx9",
-      "vcrun2010",
-      "xact",
-      "winxp"
-    ],
+    "tricks": ["dotnet45", "directx9", "vcrun2010", "xact", "winxp"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

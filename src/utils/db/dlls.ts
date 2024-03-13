@@ -314,4 +314,6 @@ export const DLLS = [
   'xna31',
   'xna40',
   'xvid',
-];
+] as const;
+
+export type DllValues = (typeof DLLS)[number];

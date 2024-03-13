@@ -2,11 +2,12 @@
   "id": "312450",
   "name": "Order of Battle: World War II",
   "tweaks": {
-    "tricks": [
-      "corefonts"
-    ],
+    "tricks": ["corefonts"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

@@ -4,7 +4,10 @@
   "tweaks": {
     "tricks": ["winhttp"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": [
     {

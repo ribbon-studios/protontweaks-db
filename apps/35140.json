@@ -2,12 +2,12 @@
   "id": "35140",
   "name": "Batman Arkham Asylum",
   "tweaks": {
-    "tricks": [
-      "d3dx9",
-      "d3dcompiler_43"
-    ],
+    "tricks": ["d3dx9", "d3dcompiler_43"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

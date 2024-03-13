@@ -2,11 +2,12 @@
   "id": "227320",
   "name": "You Need a Budget 4",
   "tweaks": {
-    "tricks": [
-      "corefonts"
-    ],
+    "tricks": ["corefonts"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

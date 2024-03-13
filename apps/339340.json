@@ -2,11 +2,12 @@
   "id": "339340",
   "name": "Resident Evil 0 / biohazard 0 HD REMASTER",
   "tweaks": {
-    "tricks": [
-      "wmp11"
-    ],
+    "tricks": ["wmp11"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }

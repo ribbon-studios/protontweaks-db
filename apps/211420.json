@@ -2,15 +2,12 @@
   "id": "211420",
   "name": "Dark Sould Prepare To Die Edition",
   "tweaks": {
-    "tricks": [
-      "wmp9",
-      "devenum",
-      "quartz",
-      "dinput8",
-      "win7"
-    ],
+    "tricks": ["wmp9", "devenum", "quartz", "dinput8", "win7"],
     "env": {},
-    "settings": {}
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
   },
   "issues": []
 }
