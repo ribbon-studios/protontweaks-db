@@ -4,7 +4,10 @@
   "tweaks": {
     "tricks": ["gdiplus"],
     "env": {},
-    "settings": {},
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
     "system": {
       "gpu_driver": {}
     }
