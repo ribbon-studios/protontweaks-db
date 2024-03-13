@@ -7,7 +7,7 @@ import type { V2, V3 } from '../types';
 export async function migrate({
   list: { apps, ...list },
   apps: tweaks,
-}: Migration<V3.AppsList, V3.App[]>): Promise<Migration<V2.Tweaks, V2.Tweak[]>> {
+}: Migration<V3.AppsList, V3.App>): Promise<Migration<V2.Tweaks, V2.Tweak>> {
   return {
     list: {
       ...list,

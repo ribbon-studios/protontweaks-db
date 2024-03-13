@@ -4,10 +4,7 @@ import type { V4, V3 } from '../types';
 /**
  * Removed fsync and esync options as they're redundant when environment variables are available.
  */
-export async function migrate({
-  list,
-  apps,
-}: Migration<V4.AppsList, V4.App[]>): Promise<Migration<V3.AppsList, V3.App[]>> {
+export async function migrate({ list, apps }: Migration<V4.AppsList, V4.App>): Promise<Migration<V3.AppsList, V3.App>> {
   return {
     list,
     apps: apps.map((app) => {

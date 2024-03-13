@@ -8,18 +8,18 @@ import * as v3 from './v3';
 import * as v4 from './v4';
 
 export type Migrations = {
-  v1: Migration<V1.Tweaks, V1.Tweak[]>;
-  v2: Migration<V2.Tweaks, V2.Tweak[]>;
-  v3: Migration<V3.AppsList, V3.App[]>;
-  v4: Migration<V4.AppsList, V4.App[]>;
+  v1: Migration<V1.Tweaks, V1.Tweak>;
+  v2: Migration<V2.Tweaks, V2.Tweak>;
+  v3: Migration<V3.AppsList, V3.App>;
+  v4: Migration<V4.AppsList, V4.App>;
 };
 
 export type Migration<L, T> = {
   list: L;
-  apps: T;
+  apps: T[];
 };
 
-export async function migrate(initial: Migration<AppsList, App[]>) {
+export async function migrate(initial: Migration<AppsList, App>) {
   const v4Apps = await v4.migrate(initial);
   const v3Apps = await v3.migrate(v4Apps);
   const v2Apps = await v2.migrate(v3Apps);
