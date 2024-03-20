@@ -23,7 +23,7 @@ Prior versions will be removed approximately a year after they're added.
 - **V3:** March 1st, 2025
 - **V2:** March 1st, 2025
 - **V1:** March 1st, 2025
-        
+
 ### Adding a tweak?
 
 - Lookup your the app id of your steam app.
@@ -45,15 +45,17 @@ Prior versions will be removed approximately a year after they're added.
     "tricks": ["gdiplus"],
     // Set any environment variables here
     "env": {},
+    // Set any cli args here
+    "args": ["--use-d3d11"],
     // true      => cli is confirmed to work.
     // false     => cli is confirmed to cause problems.
-    // 
+    //
     // If the option is not present then the given cli has not been tested.
     // Consumers of the API can interpret this however they want.
     // In the case of `protontweaks` it will do the following:
     // - gamemode => run unless the user has explicitly disabled it (or it isn't installed)
     // - mangohud => not run unless the user has explicitly enabled it and it is installed
-    // 
+    //
     // Because of how mangohud functions it tends to be safer to assume it'll cause problems unless confirmed
     "settings": {
       "gamemode": true,

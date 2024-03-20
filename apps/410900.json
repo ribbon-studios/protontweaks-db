@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["ole32"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

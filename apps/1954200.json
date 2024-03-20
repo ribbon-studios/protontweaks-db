@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": [],
     "env": {},
+    "args": [],
     "settings": {
       "gamemode": true,
       "mangohud": true

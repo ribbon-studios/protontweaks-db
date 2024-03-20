@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["mfc42"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

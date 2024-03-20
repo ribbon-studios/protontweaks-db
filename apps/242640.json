@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["xact", "dotnet40"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

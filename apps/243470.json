@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["xact", "winxp"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["d3dcompiler_47", "win7"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["vcrun2008"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

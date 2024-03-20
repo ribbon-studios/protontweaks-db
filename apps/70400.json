@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["dmime", "dmloader", "dmsynth", "dmusic", "dsound", "dswave", "sound=alsa"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

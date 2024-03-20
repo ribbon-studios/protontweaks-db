@@ -1,4 +1,4 @@
-import type { DLLS, DllValues, FONTS, FontValues, SETTINGS, SettingsValues } from '../utils/db';
+import type { DllValues, FontValues, SettingsValues } from '../utils/db';
 
 export type AppsList = {
   sha: string;
@@ -29,14 +29,9 @@ export enum GpuDriver {
 export type SystemTweaks = {
   tricks: (DllValues | FontValues | SettingsValues)[];
   env: Record<string, string>;
+  args: string[];
   settings: {
     gamemode?: boolean;
     mangohud?: boolean;
   };
-};
-
-const tweaks: SystemTweaks = {
-  tricks: [],
-  env: {},
-  settings: {},
 };

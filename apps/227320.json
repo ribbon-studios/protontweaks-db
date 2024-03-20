@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["corefonts"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

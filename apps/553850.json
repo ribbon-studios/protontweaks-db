@@ -1,0 +1,22 @@
+{
+  "id": "553850",
+  "name": "Helldivers 2",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": ["--use-d3d11"],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": [
+    {
+      "solution": "--use-d3d11",
+      "description": "Renders a black screen and various other issues."
+    }
+  ]
+}

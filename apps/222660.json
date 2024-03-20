@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["windowscodecs"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

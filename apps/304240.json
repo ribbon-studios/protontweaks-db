@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["wmp11"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

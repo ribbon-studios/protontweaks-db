@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["d3dx9", "d3dcompiler_43"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

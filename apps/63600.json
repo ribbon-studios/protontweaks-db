@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["icodecs"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

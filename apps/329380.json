@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["dsound"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

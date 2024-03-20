@@ -6,6 +6,7 @@
     "env": {
       "PULSE_LATENCY_MSEC": "60"
     },
+    "args": [],
     "settings": {
       "gamemode": false,
       "mangohud": false

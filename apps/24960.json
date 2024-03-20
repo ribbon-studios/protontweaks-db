@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["directx9", "corefonts", "win7"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

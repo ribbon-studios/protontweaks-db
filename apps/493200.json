@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["xact", "dinput8"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

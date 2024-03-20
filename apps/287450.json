@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["crypt32", "directmusic", "sound=alsa"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

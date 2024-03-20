@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["devenum", "quartz", "wmp9", "xact"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

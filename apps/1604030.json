@@ -4,7 +4,11 @@
   "tweaks": {
     "tricks": ["winhttp"],
     "env": {},
-    "settings": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
     "system": {
       "gpu_driver": {}
     }

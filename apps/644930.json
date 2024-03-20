@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["gdiplus"],
     "env": {},
+    "args": [],
     "settings": {
       "gamemode": true,
       "mangohud": true

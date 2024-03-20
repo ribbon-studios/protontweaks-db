@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["dotnet45", "directx9", "vcrun2010", "xact", "winxp"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

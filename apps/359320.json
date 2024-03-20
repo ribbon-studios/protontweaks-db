@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["dotnet40", "win7"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

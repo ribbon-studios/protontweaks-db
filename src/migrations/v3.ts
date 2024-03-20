@@ -21,7 +21,8 @@ export async function migrate({ list, apps }: Migration<V4.AppsList, V4.App>): P
       }
 
       // Opting to discard any system tweaks to prevent unexpected issues
-      const { system, ...tweaks } = app.tweaks;
+      // Discarding args and no equivalent exists
+      const { system, args, ...tweaks } = app.tweaks;
 
       return {
         ...app,

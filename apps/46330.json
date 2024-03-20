@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["vb6run"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}

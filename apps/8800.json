@@ -4,6 +4,7 @@
   "tweaks": {
     "tricks": ["msxml3", "msxml4"],
     "env": {},
+    "args": [],
     "settings": {},
     "system": {
       "gpu_driver": {}
