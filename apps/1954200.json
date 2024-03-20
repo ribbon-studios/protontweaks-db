@@ -1,0 +1,16 @@
+{
+  "id": "1954200",
+  "name": "Kena: Bridge of Spirits",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
