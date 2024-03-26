@@ -1,0 +1,18 @@
+{
+  "id": "976730",
+  "name": "Halo: Master Chief Collection",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": [
+    {
+      "description": "Disconnects within co-op with the error 'Game Error'"
+    }
+  ]
+}
