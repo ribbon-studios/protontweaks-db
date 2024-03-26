@@ -15,7 +15,7 @@ export type App = {
     };
   };
   issues: {
-    solution: string | null;
+    solution?: string;
     description: string;
   }[];
 };
