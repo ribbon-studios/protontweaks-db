@@ -1,0 +1,24 @@
+{
+  "id": "814380",
+  "name": "Sekiro: Shadows Die Twice",
+  "tweaks": {
+    "tricks": [],
+    "env": {
+      "WINEDLLOVERRIDES": "dinput8=n,b"
+    },
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": [
+    {
+      "description": "Support Sekiro Mod Engine.",
+      "solution": "dinput8=n,b"
+    }
+  ]
+}
