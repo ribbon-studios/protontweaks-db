@@ -1,0 +1,17 @@
+{
+  "id": "428550",
+  "name": "Momodora: Reverie Under The Moonlight",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
