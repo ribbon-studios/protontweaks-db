@@ -1,0 +1,17 @@
+{
+  "id": "1920490",
+  "name": "The Outer Worlds: Spacer's Choice Edition",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
