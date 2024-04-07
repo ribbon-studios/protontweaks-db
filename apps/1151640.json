@@ -1,0 +1,17 @@
+{
+  "id": "1151640",
+  "name": "Horizon Zero Dawn Complete Edition",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
