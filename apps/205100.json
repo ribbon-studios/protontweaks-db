@@ -2,7 +2,10 @@
   "id": "205100",
   "name": "Dishonored",
   "tweaks": {
-    "tricks": [],
+    "tricks": [
+      "dotnet6",
+      "dotnetdesktop6"
+    ],
     "env": {},
     "args": [],
     "settings": {
@@ -13,5 +16,8 @@
       "gpu_driver": {}
     }
   },
-  "issues": []
+  "issues": [{
+    "solution": "dotnet6 and dotnetdesktop6",
+    "description": "Allows the running of the Unreal 3 TFC Installer"
+  }]
 }
