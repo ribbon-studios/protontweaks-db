@@ -1,0 +1,19 @@
+{
+  "id": "22370",
+  "name": "Fallout 3",
+  "tweaks": {
+    "tricks": [],
+    "env": {
+      "DXVK_FRAME_RATE": "60"
+    },
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
