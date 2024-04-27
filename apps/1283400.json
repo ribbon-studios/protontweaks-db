@@ -1,0 +1,27 @@
+{
+  "id": "1283400",
+  "name": "Steelrising",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {
+        "nvidia": {
+          "tricks": [],
+          "env": {
+            "PROTON_HIDE_NVIDIA_GPU": "0",
+            "PROTON_ENABLE_NVAPI": "1"
+          },
+          "args": [],
+          "settings": {},
+        }
+      }
+    }
+  },
+  "issues": []
+}
