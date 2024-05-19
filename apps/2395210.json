@@ -1,0 +1,17 @@
+{
+  "id": "2395210",
+  "name": "Tony Hawk's Pro Skater 1 + 2",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
