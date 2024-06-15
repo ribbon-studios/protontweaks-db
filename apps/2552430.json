@@ -4,9 +4,7 @@
   "name": "KINGDOM HEARTS -HD 1.5+2.5 ReMIX-",
   "tweaks": {
     "tricks": [],
-    "env": {
-      "SteamDeck": "1"
-    },
+    "env": {},
     "args": [],
     "settings": {
       "gamemode": true,
@@ -16,8 +14,5 @@
       "gpu_driver": {}
     }
   },
-  "issues": [{
-    "solution": "SteamDeck=1",
-    "description": "Screen is black during the opening"
-  }]
+  "issues": []
 }
