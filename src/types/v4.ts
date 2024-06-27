@@ -1,8 +1,11 @@
 import type { DllValues, FontValues, SettingsValues } from '../utils/db';
 
-export type AppsList = {
+export type Info = {
   sha: string;
   short_sha: string;
+};
+
+export type AppsList = Info & {
   apps: Pick<App, 'id' | 'name'>[];
 };
 

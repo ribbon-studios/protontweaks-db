@@ -1,6 +1,7 @@
 node_modules/
 apps/schema.json
 apps/apps.json
+apps/info.json
 apps/*.md
 # Ignore any sub directories under apps
 apps/*/

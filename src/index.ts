@@ -3,6 +3,7 @@ import { generateSchema } from './utils/schema';
 import { migrate } from './migrations';
 import { mkdir, cp } from 'fs/promises';
 import { join, basename } from 'path';
+import { generateInfoFile, getInfo } from './utils/info';
 
 const DIST_DIR = join(import.meta.dirname, '../dist');
 
@@ -17,6 +18,7 @@ async function generate() {
     }),
     generateSchema(),
     generateAppsListFile(list),
+    generateInfoFile(getInfo()),
   ]);
 
   await mkdir(DIST_DIR, {
