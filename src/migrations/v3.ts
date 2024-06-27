@@ -10,7 +10,7 @@ export async function migrate({
 }: Migration<V4.AppsList, V4.App, V4.Info>): Promise<Migration<V3.AppsList, V3.App>> {
   return {
     list,
-    apps: apps.map((app) => {
+    apps: apps.map(({ ...app }) => {
       const settings: V3.App['tweaks']['settings'] = {};
 
       if (app.tweaks.env.PROTON_NO_ESYNC) {
@@ -29,6 +29,10 @@ export async function migrate({
 
       return {
         ...app,
+        issues: app.issues.map((issue) => ({
+          ...issue,
+          solution: issue.solution ?? null,
+        })),
         tweaks: {
           ...tweaks,
           settings,

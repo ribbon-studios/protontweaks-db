@@ -17,7 +17,7 @@ export type Migrations = {
 export type Migration<L, T, I = undefined> = {
   list: L;
   apps: T[];
-  info: I;
+  info?: I;
 };
 
 export async function migrate(initial: Migration<AppsList, App, Info>) {
