@@ -1,6 +1,6 @@
 import { join } from 'path';
 import { writeFile, mkdir } from 'fs/promises';
-import type { AppsList, App, V1, V2, V3, V4 } from '../types';
+import type { AppsList, App, Info, V1, V2, V3, V4 } from '../types';
 import { APPS_DIR } from '../utils/apps';
 import * as v1 from './v1';
 import * as v2 from './v2';
@@ -11,15 +11,16 @@ export type Migrations = {
   v1: Migration<V1.Tweaks, V1.Tweak>;
   v2: Migration<V2.Tweaks, V2.Tweak>;
   v3: Migration<V3.AppsList, V3.App>;
-  v4: Migration<V4.AppsList, V4.App>;
+  v4: Migration<V4.AppsList, V4.App, V4.Info>;
 };
 
-export type Migration<L, T> = {
+export type Migration<L, T, I = undefined> = {
   list: L;
   apps: T[];
+  info: I;
 };
 
-export async function migrate(initial: Migration<AppsList, App>) {
+export async function migrate(initial: Migration<AppsList, App, Info>) {
   const v4Apps = await v4.migrate(initial);
   const v3Apps = await v3.migrate(v4Apps);
   const v2Apps = await v2.migrate(v3Apps);
@@ -46,12 +47,20 @@ export async function migrate(initial: Migration<AppsList, App>) {
         recursive: true,
       });
 
-      await Promise.all([
+      const promises = [
         writeFile(join(VERSIONED_APPS_DIR, appsFileName), JSON.stringify(migration.list, null, 2), 'utf-8'),
         ...migration.apps.map(async (app) => {
           await writeFile(join(VERSIONED_APPS_DIR, `${app.id}.json`), JSON.stringify(app, null, 2), 'utf-8');
         }),
-      ]);
+      ];
+
+      if (migration.info) {
+        promises.push(
+          writeFile(join(VERSIONED_APPS_DIR, 'info.json'), JSON.stringify(migration.info, null, 2), 'utf-8')
+        );
+      }
+
+      await Promise.all(promises);
     })
   );
 }

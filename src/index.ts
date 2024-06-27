@@ -10,15 +10,17 @@ const DIST_DIR = join(import.meta.dirname, '../dist');
 async function generate() {
   const apps = await getApps();
   const list = await getAppsList(apps);
+  const info = getInfo();
 
   await Promise.all([
     migrate({
       list,
       apps,
+      info,
     }),
     generateSchema(),
     generateAppsListFile(list),
-    generateInfoFile(getInfo()),
+    generateInfoFile(info),
   ]);
 
   await mkdir(DIST_DIR, {

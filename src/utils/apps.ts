@@ -11,7 +11,7 @@ export async function getAppFiles(includeTemplate: boolean = false): Promise<str
     (file) =>
       file.endsWith('.json') &&
       (!file.startsWith('.') || includeTemplate) &&
-      !['apps.json', 'schema.json'].includes(file)
+      !['apps.json', 'info.json', 'schema.json'].includes(file)
   );
 }
 
