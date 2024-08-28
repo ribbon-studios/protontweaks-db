@@ -1,0 +1,17 @@
+{
+  "id": "1983260",
+  "name": "Dungeons of Hinterberg",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
