@@ -1,0 +1,17 @@
+{
+  "id": "740130",
+  "name": "Tales of Arise",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
