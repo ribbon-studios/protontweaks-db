@@ -1,0 +1,17 @@
+{
+  "id": "1082710",
+  "name": "Bug Fables: The Everlasting Sapling",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
