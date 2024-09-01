@@ -1,0 +1,17 @@
+{
+  "id": "2075160",
+  "name": "BOSSGAME: The Final Boss Is My Heart",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
