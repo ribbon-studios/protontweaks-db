@@ -1,10 +1,9 @@
-import { DLLS, FONTS, SETTINGS } from './db/index';
 import Ajv from 'ajv';
 import { writeFile } from 'fs/promises';
 import { join } from 'path';
-import { APPS_DIR } from './apps';
 import * as TJS from 'typescript-json-schema';
 import { resolve } from 'path';
+import { DIRECTORIES } from '../constants';
 
 const ajv = new Ajv({
   allErrors: true,
@@ -34,5 +33,5 @@ export async function getAppValidator() {
 export async function generateSchema() {
   const schema = await getSchema();
 
-  await writeFile(join(APPS_DIR, 'schema.json'), JSON.stringify(schema, null, 2), 'utf-8');
+  await writeFile(join(DIRECTORIES.DIST, 'schema.json'), JSON.stringify(schema, null, 2), 'utf-8');
 }
