@@ -37,7 +37,7 @@ export async function getApps(includeTemplate?: boolean): Promise<ComputedApp[]>
   );
 }
 
-export async function getAppsList(apps: App[]): Promise<AppsList> {
+export async function getAppsList(apps: ComputedApp[]): Promise<AppsList> {
   return {
     sha: process.env.GITHUB_SHA ?? 'local',
     short_sha: process.env.GITHUB_SHA?.slice(0, 7) ?? 'local',
@@ -46,6 +46,8 @@ export async function getAppsList(apps: App[]): Promise<AppsList> {
       .map((app) => ({
         id: app.id,
         name: app.name,
+        created_at: app.created_at,
+        updated_at: app.updated_at,
       })),
   };
 }
