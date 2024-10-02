@@ -1,0 +1,26 @@
+{
+  "id": "1255560",
+  "name": "Myst",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {
+        "amd": {
+          "tricks": [],
+          "env": {
+            "VKD3D_CONFIG": "dxr",
+            "RADV_PERFTEST": "rt"
+          },
+          "settings": {}
+        }
+      }
+    }
+  },
+  "issues": []
+}
