@@ -17,6 +17,7 @@
             "VKD3D_CONFIG": "dxr",
             "RADV_PERFTEST": "rt"
           },
+          "args": [],
           "settings": {}
         }
       }
