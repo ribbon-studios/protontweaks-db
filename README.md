@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> This is the Protontweaks UI repository, you can find its sister repositories at the following links!
+> This is the Protontweaks Database repository, you can find its sister repositories at the following links!
 
 - [CLI](https://github.com/rain-cafe/protontweaks)
 - [App](https://github.com/rain-cafe/protontweaks-ui)
