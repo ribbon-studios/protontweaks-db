@@ -3,6 +3,8 @@ import { join } from 'path';
 import type { AppsList, App, ComputedApp } from '../types';
 import { getCreationDate, getLastUpdatedDate } from './git';
 import { DIRECTORIES } from '../constants';
+import { isNotEmpty } from './size';
+import type { SystemTweaks } from '../types/v4';
 
 export async function getAppFiles(includeTemplate: boolean = false): Promise<string[]> {
   const files = await readdir(DIRECTORIES.APPS, 'utf-8');
@@ -46,8 +48,18 @@ export async function getAppsList(apps: ComputedApp[]): Promise<AppsList> {
       .map((app) => ({
         id: app.id,
         name: app.name,
+        has: {
+          args: hasTweak(app, 'args'),
+          env: hasTweak(app, 'env'),
+          settings: hasTweak(app, 'settings'),
+          tricks: hasTweak(app, 'tricks'),
+        },
         created_at: app.created_at,
         updated_at: app.updated_at,
       })),
   };
+}
+
+export function hasTweak(app: App, key: keyof SystemTweaks): boolean {
+  return isNotEmpty(app.tweaks[key]) || Object.values(app.tweaks.system.gpu_driver).some((gpu) => isNotEmpty(gpu[key]));
 }

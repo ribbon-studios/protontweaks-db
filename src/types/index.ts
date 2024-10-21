@@ -9,8 +9,19 @@ export type ComputedApp = App & {
   created_at: string;
   updated_at: string;
 };
+
+export type PartialApp = Pick<ComputedApp, 'id' | 'name' | 'created_at' | 'updated_at'> & {
+  // Used for filtering on protontweaks.com
+  has: {
+    args: boolean;
+    env: boolean;
+    settings: boolean;
+    tricks: boolean;
+  };
+};
+
 export type AppsList = Info & {
-  apps: Pick<ComputedApp, 'id' | 'name' | 'created_at' | 'updated_at'>[];
+  apps: PartialApp[];
 };
 
 export { V4 };
