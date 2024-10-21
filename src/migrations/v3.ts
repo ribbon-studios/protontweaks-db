@@ -9,7 +9,13 @@ export async function migrate({
   apps,
 }: Migration<V4.AppsList, V4.App, V4.Info>): Promise<Migration<V3.AppsList, V3.App>> {
   return {
-    list,
+    list: {
+      ...list,
+      apps: list.apps.map((app) => ({
+        id: app.id,
+        name: app.name,
+      })),
+    },
     apps: apps.map(({ ...app }) => {
       const settings: V3.App['tweaks']['settings'] = {};
 
