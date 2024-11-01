@@ -16,7 +16,7 @@
     }
   },
   "issues": [{
-    "solution": "VKD3D_DISABLE_EXTENSIONS"
+    "solution": "VKD3D_DISABLE_EXTENSIONS",
     "description": "Without it a crash occurs on startup for some NVidia / AMD GPUs"
   }]
 }
