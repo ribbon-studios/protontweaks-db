@@ -1,0 +1,17 @@
+{
+  "id": "3065170",
+  "name": "Monster Hunter Wilds Beta Test",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
