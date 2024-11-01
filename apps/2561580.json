@@ -15,5 +15,8 @@
       "gpu_driver": {}
     }
   },
-  "issues": []
+  "issues": [{
+    "solution": "-showlinkingqr",
+    "description": "Resolves an issue where the PSN login screen fails to load"
+  }]
 }
