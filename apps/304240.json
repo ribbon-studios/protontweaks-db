@@ -5,7 +5,10 @@
     "tricks": ["wmp11"],
     "env": {},
     "args": [],
-    "settings": {},
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
     "system": {
       "gpu_driver": {}
     }
