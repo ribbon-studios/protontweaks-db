@@ -1,0 +1,17 @@
+{
+  "id": "24800",
+  "name": "Command & Conquer Red Alert 3 - Uprising",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
