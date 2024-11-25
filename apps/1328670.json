@@ -1,0 +1,17 @@
+{
+  "id": "1328670",
+  "name": "Mass Effect Legendary Edition",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
