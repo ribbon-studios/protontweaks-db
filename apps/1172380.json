@@ -1,0 +1,17 @@
+{
+  "id": "1172380",
+  "name": "Star Wars Jedi: Fallen Order",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
