@@ -1,0 +1,17 @@
+{
+  "id": "1774580",
+  "name": "Star Wars Jedi: Survivor",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
