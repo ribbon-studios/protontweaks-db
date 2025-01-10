@@ -1,0 +1,17 @@
+{
+  "id": "1237950",
+  "name": "Star Wars: Battlefront II",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
