@@ -4,7 +4,9 @@
   "tweaks": {
     "tricks": [],
     "env": {},
-    "args": [],
+    "args": [
+      "-lodfull"
+    ],
     "settings": {
       "gamemode": true,
       "mangohud": true
