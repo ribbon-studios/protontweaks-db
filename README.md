@@ -60,8 +60,22 @@ Prior versions will be removed approximately a year after they're added.
     "settings": {
       "gamemode": true,
       "mangohud": false
+    },
+    "system": {
+      // Specify any gpu specific tweaks
+      "gpu_driver": {
+        "amd": {},
+        "nvidia": {}
+      }
     }
-  }
+  },
+  // Any flags / tricks that are utilized and not overtly obvious how they resolve an issue should be documented.
+  "issues": [
+    {
+      "solution": "--use-d3d11",
+      "description": "Renders a black screen and various other issues."
+    }
+  ]
 }
 ```
 
