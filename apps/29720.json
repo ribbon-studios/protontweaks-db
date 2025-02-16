@@ -6,7 +6,7 @@
     "env": {},
     "args": [
       "-lodfull",
-      "-character 'unused'"
+      "-character unused"
     ],
     "settings": {
       "gamemode": true,
@@ -17,7 +17,7 @@
     }
   },
   "issues": [{
-    "solution": "-character 'unused'",
+    "solution": "-character unused",
     "description": "Required for auto login, as such we're providing a bogus value to satisfy it."
   }]
 }
