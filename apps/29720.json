@@ -6,7 +6,8 @@
     "env": {},
     "args": [
       "-lodfull",
-      "-character unused"
+      "-character",
+      "unused"
     ],
     "settings": {
       "gamemode": true,
