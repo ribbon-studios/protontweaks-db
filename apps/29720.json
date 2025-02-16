@@ -5,7 +5,8 @@
     "tricks": [],
     "env": {},
     "args": [
-      "-lodfull"
+      "-lodfull",
+      "-character 'unused'"
     ],
     "settings": {
       "gamemode": true,
@@ -15,5 +16,8 @@
       "gpu_driver": {}
     }
   },
-  "issues": []
+  "issues": [{
+    "solution": "-character 'unused'",
+    "description": "Required for auto login, as such we're providing a bogus value to satisfy it."
+  }]
 }
