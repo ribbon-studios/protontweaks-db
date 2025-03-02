@@ -7,7 +7,9 @@
     "args": [
       "-lodfull",
       "-character",
-      "unused"
+      "unused",
+      "-fps",
+      "60"
     ],
     "settings": {
       "gamemode": true,
@@ -20,5 +22,8 @@
   "issues": [{
     "solution": "-character unused",
     "description": "Required for auto login, as such we're providing a bogus value to satisfy it."
+  }, {
+    "solution": "-fps 60",
+    "description": "At higher frame rates the game will eventually cause the player to start teleporting around."
   }]
 }
