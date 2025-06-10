@@ -3,7 +3,9 @@
   "name": "Clair Obscur: Expedition 33",
   "tweaks": {
     "tricks": [],
-    "env": {},
+    "env": {
+      "SteamDeck": "0"
+    },
     "args": [],
     "settings": {
       "gamemode": true,
