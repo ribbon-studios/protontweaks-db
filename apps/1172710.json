@@ -10,7 +10,17 @@
       "mangohud": true
     },
     "system": {
-      "gpu_driver": {}
+      "gpu_driver": {
+        "nvidia": {
+          "tricks": [],
+          "args": [],
+          "env": {
+            "PROTON_HIDE_NVIDIA_GPU": "0",
+            "PROTON_ENABLE_NVAPI": "1"
+          },
+          "settings": {}
+        }
+      }
     }
   },
   "issues": []
