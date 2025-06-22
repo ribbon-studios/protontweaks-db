@@ -1,0 +1,22 @@
+{
+  "id": "3527290",
+  "name": "Peak",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [
+      "-dx12"
+    ],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": [{
+    "solution": "-dx12",
+    "description": "Resolves crashes and voice chat issues."
+  }]
+}
