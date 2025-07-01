@@ -1,0 +1,14 @@
+{
+  "id": "2420660",
+  "name": "Neva",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
