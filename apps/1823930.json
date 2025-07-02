@@ -1,0 +1,14 @@
+{
+  "id": "1823930",
+  "name": "Wavetale",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {},
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
