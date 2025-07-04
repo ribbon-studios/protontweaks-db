@@ -1,0 +1,17 @@
+{
+  "id": "1895880",
+  "name": "Ratchet & Clank: Rift Apart",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
