@@ -1,0 +1,17 @@
+{
+  "id": "2445990",
+  "name": "Bloomtown: A Different Story",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
