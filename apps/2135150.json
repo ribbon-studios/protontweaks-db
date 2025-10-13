@@ -1,0 +1,21 @@
+{
+  "id": "2135150",
+  "name": "Elin",
+  "tweaks": {
+    "tricks": [],
+    "env": {
+      "WINEDLLOVERRIDES": "winhttp=n,b"
+    },
+    "args": [
+      "-useallavailablecores"
+    ],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
