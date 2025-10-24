@@ -1,0 +1,17 @@
+{
+  "id": "252870",
+  "name": "PULSAR: Lost Colony",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
