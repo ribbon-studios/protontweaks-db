@@ -1,0 +1,17 @@
+{
+  "id": "2787320",
+  "name": "Revenge of the Savage Planet",
+  "tweaks": {
+    "tricks": [],
+    "env": {},
+    "args": [],
+    "settings": {
+      "gamemode": true,
+      "mangohud": true
+    },
+    "system": {
+      "gpu_driver": {}
+    }
+  },
+  "issues": []
+}
